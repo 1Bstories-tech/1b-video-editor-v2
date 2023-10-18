@@ -1,7 +1,11 @@
 "use client";
 import { Provider, useDispatch, useSelector } from "react-redux";
 import {
+  findNestedElementById,
+  findNestedParentById,
+  getCreatomateState,
   getGlobalTime,
+  getIsPlaying,
   getOverrides,
   getSelectedElement,
   getSelectedElementId,
@@ -12,33 +16,24 @@ import {
   setActiveElementId,
   setCreatomateState,
   setGlobalTime,
-  store,
-  getIsPlaying,
   setIsPlaying,
-  getCreatomateState,
-  findNestedParentById,
-  findNestedElementById,
+  store,
 } from "./store.js";
 import { Preview } from "@creatomate/preview";
 import { useEffect, useRef, useState } from "react";
 import _ from "lodash";
-import { produce, current } from "immer";
-import { enablePatches } from "immer";
+import { enablePatches, produce } from "immer";
 import { previewEmitter } from "@/app/video/previewEmitter";
 
 enablePatches();
 
 function createUniqueId() {
-  var date = new Date().getTime();
-  var uniqueId = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(
-    /[xy]/g,
-    function (c) {
-      var r = (date + Math.random() * 16) % 16 | 0;
-      date = Math.floor(date / 16);
-      return (c == "x" ? r : (r & 0x3) | 0x8).toString(16);
-    },
-  );
-  return uniqueId;
+  let date = new Date().getTime();
+  return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
+    const r = (date + Math.random() * 16) % 16 | 0;
+    date = Math.floor(date / 16);
+    return (c === "x" ? r : (r & 0x3) | 0x8).toString(16);
+  });
 }
 
 let changes = [];
@@ -153,6 +148,12 @@ const PreviewWrapper = () => {
               id: createUniqueId(),
               type: "text",
               track: 3,
+              custom_a: 1,
+              custom_properties: {
+                a: 1,
+                b: 2,
+                c: 3,
+              },
               fill_color: "#838383",
               text: "Your text here",
             });
@@ -338,6 +339,8 @@ const SelectedPreview = () => {
   return (
     <>
       <FormElement property={"text"} />
+      <FormElement property={"custom_properties.a"} />
+      <FormElement property={"custom_a"} />
       <FormElement property={"source"} />
       <div>
         <AddTextButton />
