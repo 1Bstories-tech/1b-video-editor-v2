@@ -1,0 +1,2585 @@
+{
+  "output_format": "mp4",
+  "width": 720,
+  "height": 1280,
+  "elements": [
+    {
+      "id": "495c63c7-1e7f-4ee0-99dd-aa73b60c5a3d",
+      "name": "slideIntro",
+      "type": "composition",
+      "track": 1,
+      "duration": "5 s",
+      "elements": [
+        {
+          "id": "b719853b-d8a3-4345-8417-2c600d5d6aaf",
+          "name": "shape-1",
+          "type": "shape",
+          "track": 1,
+          "width": "100%",
+          "height": "100%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "fill_color": "#000000",
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "04cbc070-2b08-4ac6-bcab-bfb03e1aacf1",
+          "name": "composition-1",
+          "type": "composition",
+          "track": 2,
+          "x": "39.5%",
+          "y": "48.7835%",
+          "width": "126%",
+          "height": "102%",
+          "elements": [
+            {
+              "id": "8b777276-1048-40af-baa3-9b1e6a73d5d4",
+              "name": "sceneImage-1",
+              "type": "image",
+              "track": 1,
+              "x": "58.3333%",
+              "y": "51.4038%",
+              "width": "83.3333%",
+              "height": "102.8074%",
+              "animations": [
+                {
+                  "type": "pan",
+                  "end_x": "50%",
+                  "scope": "element",
+                  "start_x": "50%",
+                  "start_y": "100%",
+                  "end_scale": "100%"
+                },
+                {
+                  "time": "start",
+                  "duration": "4.999 s",
+                  "easing": "linear",
+                  "type": "wiggle",
+                  "count": 1,
+                  "frequency": "0.2 Hz",
+                  "z_rotation": "2°"
+                }
+              ],
+              "source": "https://cdn.vidiofy.ai/pipeline/parser/1697040616887/9be3f856-c113-45a7-9e2f-0ec8dac910af.jpg",
+              "smart_crop": true
+            }
+          ]
+        },
+        {
+          "id": "8dabf4c5-2a69-4b08-8a25-e52929b6630f",
+          "name": "overlayimage-1",
+          "type": "image",
+          "track": 3,
+          "opacity": "70%",
+          "source": "https://cdn.vidiofy.ai/templates/assets/1696838030901/86897018-c5b2-42a8-9dc7-5fd4f4d9a895"
+        },
+        {
+          "id": "0b5b1b7f-9800-4ad8-9831-8eac41a66422",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 4,
+          "x": "53.1614%",
+          "y": "75.1654%",
+          "width": "68.3804%",
+          "height": "22.5152%",
+          "elements": [
+            {
+              "id": "ae32af68-6317-41bc-adf5-56205f4335f6",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "x": "14.7682%",
+              "y": "5.0786%",
+              "width": "100%",
+              "height": "100%",
+              "x_anchor": "0%",
+              "y_anchor": "0%",
+              "fill_color": "rgba(255,234,111,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "This is old text",
+              "font_family": "Plus Jakarta Sans",
+              "font_weight": "300"
+            }
+          ]
+        },
+        {
+          "id": "ef8ded1c-92ae-4aab-89d4-ca17a7bd5d78",
+          "name": "shape-2",
+          "type": "shape",
+          "track": 5,
+          "x": "11.67%",
+          "y": "80%",
+          "width": "1.5%",
+          "height": "40%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "fill_color": "#ffffff",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "2 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "fade": false,
+              "x_anchor": "0%",
+              "end_angle": "90°",
+              "start_angle": "90°"
+            }
+          ],
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "f0f4e62d-acab-4f83-bfe7-60ea83833ad0",
+          "name": "composition-2",
+          "type": "composition",
+          "track": 6,
+          "x": "27.8831%",
+          "y": "61.2028%",
+          "width": "17.8239%",
+          "height": "2.4055%",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "x_anchor": "0%"
+            }
+          ],
+          "elements": [
+            {
+              "id": "3f1c203c-75c1-4c15-8bbd-74e3392db970",
+              "name": "shape-3",
+              "type": "shape",
+              "track": 1,
+              "width": "100%",
+              "height": "100%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "stroke_color": "#ffffff",
+              "stroke_width": "0.2 vmin",
+              "border_radius": "1 vmin",
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            },
+            {
+              "id": "33f530c1-1d08-410f-9ad1-13428057c9c9",
+              "name": "text-1",
+              "type": "text",
+              "track": 2,
+              "width": "80.1048%",
+              "height": "84.0948%",
+              "fill_color": "#ffffff",
+              "text": "VIDIOFY.AI",
+              "font_family": "Plus Jakarta Sans",
+              "font_weight": "700",
+              "font_size_maximum": "4.5 vmin"
+            }
+          ]
+        },
+        {
+          "id": "6147b59f-1de4-40a5-8bc1-c6ba12274532",
+          "type": "composition",
+          "track": 7,
+          "time": "0 s",
+          "duration": "5 s",
+          "x": "79.277%",
+          "y": "90.965%",
+          "width": "20.0827%",
+          "height": "11.2965%",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "slide",
+              "direction": "180°"
+            }
+          ],
+          "elements": [
+            {
+              "id": "38b52122-4fe7-4dda-b671-29c495a182f1",
+              "name": "image-1",
+              "type": "image",
+              "track": 1,
+              "time": "0 s",
+              "width": "80.4139%",
+              "height": "80.414%",
+              "z_rotation": [
+                {
+                  "time": "0 s",
+                  "value": "360°"
+                },
+                {
+                  "time": "end",
+                  "value": "0°"
+                }
+              ],
+              "source": "https://cdn.vidiofy.ai/templates/assets/1696936856479/a7bbf501-a6c8-444f-8f74-50537c508bac"
+            },
+            {
+              "id": "ea8ccb6e-a3f1-4fd3-9a8b-1ad283f1470b",
+              "name": "image-2",
+              "type": "image",
+              "track": 2,
+              "time": "0 s",
+              "width": "30.1553%",
+              "height": "34.021%",
+              "z_rotation": [
+                {
+                  "time": "0 s",
+                  "value": "0°"
+                },
+                {
+                  "time": "end",
+                  "value": "360°"
+                }
+              ],
+              "source": "https://cdn.vidiofy.ai/templates/assets/1696936857080/26fe133f-1201-4f05-93cc-f880aa8719ee"
+            }
+          ]
+        },
+        {
+          "id": "dff4b0cc-121a-4c63-97ec-8f5ed87c6f54",
+          "name": "video-1",
+          "type": "video",
+          "track": 8,
+          "duration": null,
+          "width": "177.7778%",
+          "height": "56.25%",
+          "z_rotation": "90°",
+          "blend_mode": "screen",
+          "source": "https://cdn.vidiofy.ai/templates/assets/1696936860573/19522291-2d19-4a14-aa32-70f67c1ab08f",
+          "loop": true,
+          "volume": "0%"
+        }
+      ]
+    },
+    {
+      "id": "c3ad3e59-df88-4859-a533-2afdba2166b7",
+      "name": "slide1",
+      "type": "composition",
+      "track": 1,
+      "animations": [
+        {
+          "time": "start",
+          "duration": "1 s",
+          "easing": "quadratic-out",
+          "type": "color-wipe",
+          "color": "#ffea6f",
+          "direction": "right"
+        }
+      ],
+      "elements": [
+        {
+          "id": "6cd188f1-d68c-4957-acde-17f2a9764ed4",
+          "name": "shape-1",
+          "type": "shape",
+          "track": 1,
+          "width": "100%",
+          "height": "100%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "fill_color": "#000000",
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "600022bd-d519-4e1b-b916-a8d9db4b928c",
+          "name": "sceneVideo-1",
+          "type": "video",
+          "track": 2,
+          "duration": null,
+          "x": [
+            {
+              "time": "0 s",
+              "value": "50%"
+            }
+          ],
+          "y": [
+            {
+              "time": "0 s",
+              "value": "50%"
+            }
+          ],
+          "width": [
+            {
+              "time": "0 s",
+              "value": "120%"
+            },
+            {
+              "time": "1 s",
+              "value": "105%"
+            }
+          ],
+          "height": [
+            {
+              "time": "0 s",
+              "value": "120%"
+            },
+            {
+              "time": "1 s",
+              "value": "105%"
+            }
+          ],
+          "blur_radius": [
+            {
+              "time": "0 s",
+              "value": 100
+            },
+            {
+              "time": "1 s",
+              "value": 0
+            }
+          ],
+          "blur_mode": "box",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "wiggle",
+              "count": 2,
+              "frequency": "0.46 Hz",
+              "z_rotation": "3°"
+            },
+            {
+              "time": "end",
+              "duration": "3.3437 s",
+              "type": "pan",
+              "end_x": "50%",
+              "end_y": "0%",
+              "scope": "element",
+              "start_x": "50%",
+              "start_y": "0%",
+              "end_scale": "120%",
+              "start_scale": "100%"
+            }
+          ],
+          "source": "https://cdn.vidiofy.ai/pipeline/assets/1697040702522/fd740108-a869-4bd9-a619-1d2f1d9da178.mp4",
+          "loop": true,
+          "volume": "0%"
+        },
+        {
+          "id": "50ecfcaf-7542-472b-908b-d87dade00d63",
+          "name": "overlayimage-1",
+          "type": "image",
+          "track": 3,
+          "y": "30.9896%",
+          "height": "138.0208%",
+          "z_rotation": "-180°",
+          "opacity": "50%",
+          "source": "https://cdn.vidiofy.ai/templates/assets/1696838044959/fe2869c7-3546-4e84-82f7-ce8cc91a92b9"
+        },
+        {
+          "id": "0271d971-e14c-45b4-9a8b-3910ab091cfd",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 4,
+          "x": "50.1147%",
+          "y": "59.1368%",
+          "width": "68.3804%",
+          "height": "22.5152%",
+          "elements": [
+            {
+              "id": "e9a5db57-b41e-443d-9e03-6a1daee1a71d",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "x": "0%",
+              "y": "17.4418%",
+              "width": "100%",
+              "height": "65.1165%",
+              "x_anchor": "0%",
+              "y_anchor": "0%",
+              "y_alignment": "50%",
+              "fill_color": "#ffea6f",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "2 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "A New Era for Mortal Kombat Series",
+              "font_family": "Plus Jakarta Sans",
+              "font_weight": "700",
+              "font_size_maximum": "7 vmin"
+            }
+          ]
+        },
+        {
+          "id": "75726ed9-8a68-4948-aef1-ae5e0c8b79b2",
+          "name": "narratorText",
+          "type": "text",
+          "track": 5,
+          "time": "1 s",
+          "x": "49.413%",
+          "y": "78.6463%",
+          "width": "66.9769%",
+          "height": "18.4658%",
+          "fill_color": "#ffffff",
+          "text": [
+            {
+              "time": "0.009 s",
+              "value": "[color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]For[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.159 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]more[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.4 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]than[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.519 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]30[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.86 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]years,[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "1.37 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years,[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Mortal[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "1.83 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Kombat[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.24 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]has[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.41 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]been[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.559 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]ripping[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.869 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]spines[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.45 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]and[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.569 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]severing[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.99 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]heads,[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "4.63 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads,[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]and[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "4.849 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]the[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "4.909 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]latest,[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "5.53 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the latest,[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Mortal[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.01 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the latest, Mortal[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Kombat[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.489 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the latest, Mortal Kombat[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]1,[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.849 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the latest, Mortal Kombat 1,[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]represents[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "7.519 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the latest, Mortal Kombat 1, represents[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]perhaps[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "7.929 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the latest, Mortal Kombat 1, represents perhaps[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]the[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.029 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the latest, Mortal Kombat 1, represents perhaps the[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]most[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.27 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the latest, Mortal Kombat 1, represents perhaps the most[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]dramatic[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.739 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the latest, Mortal Kombat 1, represents perhaps the most dramatic[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]gameplay[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the latest, Mortal Kombat 1, represents perhaps the most dramatic gameplay[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]shift[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9.189 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the latest, Mortal Kombat 1, represents perhaps the most dramatic gameplay shift[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]the[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9.51 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the latest, Mortal Kombat 1, represents perhaps the most dramatic gameplay shift the[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]series[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9.6 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the latest, Mortal Kombat 1, represents perhaps the most dramatic gameplay shift the series[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]has[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9.97 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the latest, Mortal Kombat 1, represents perhaps the most dramatic gameplay shift the series has[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]ever[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "10.13 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]For more than 30 years, Mortal Kombat has been ripping spines and severing heads, and the latest, Mortal Kombat 1, represents perhaps the most dramatic gameplay shift the series has ever[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]seen.[/size][/weight][/family][/color]"
+            }
+          ],
+          "font_family": "Plus Jakarta Sans",
+          "font_weight": "700",
+          "font_size": "4.9999 vmin",
+          "font_size_maximum": "5 vmin"
+        },
+        {
+          "id": "aa9a6abe-72f1-4468-bfb3-b32ca9186a15",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 6,
+          "time": "1 s",
+          "visible": false,
+          "x": "49.413%",
+          "y": "78.6463%",
+          "width": "66.9769%",
+          "height": "18.4658%",
+          "fill_color": "rgba(255,234,111,1)",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1.8991 s",
+              "easing": "quadratic-out",
+              "type": "text-appear",
+              "split": "word"
+            }
+          ],
+          "text": "Discover AI's role in revolutionizing video creation",
+          "font_family": "Plus Jakarta Sans",
+          "font_weight": "700",
+          "font_size_maximum": "5 vmin"
+        },
+        {
+          "id": "d4b5c88c-8941-4b35-bc9d-dc678be8f3bc",
+          "name": "shape-2",
+          "type": "shape",
+          "track": 8,
+          "x": "11.6719%",
+          "y": "62.986%",
+          "width": "1.5%",
+          "height": "49.7864%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "fill_color": "#ffffff",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "2.5662 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "fade": false,
+              "x_anchor": "0%",
+              "end_angle": "90°",
+              "start_angle": "90°"
+            }
+          ],
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "d2c1f991-dcf6-4650-8d91-1d322e8bc2f9",
+          "name": "composition-2",
+          "type": "composition",
+          "track": 9,
+          "time": "1 s",
+          "x": "24.8365%",
+          "y": "49.3211%",
+          "width": "17.8239%",
+          "height": "2.4055%",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "x_anchor": "0%"
+            }
+          ],
+          "elements": [
+            {
+              "id": "c4b1886f-c630-4566-844a-c37a04814032",
+              "name": "shape-3",
+              "type": "shape",
+              "track": 1,
+              "width": "100%",
+              "height": "100%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "stroke_color": "#ffffff",
+              "stroke_width": "0.2 vmin",
+              "border_radius": "1 vmin",
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            },
+            {
+              "id": "520b80f3-81c7-4932-a79e-e01bb16ea7f8",
+              "name": "text-1",
+              "type": "text",
+              "track": 2,
+              "width": "80.1048%",
+              "height": "84.0948%",
+              "fill_color": "#ffffff",
+              "text": "VIDIOFY.AI",
+              "font_family": "Plus Jakarta Sans",
+              "font_weight": "700",
+              "font_size_maximum": "4.5 vmin"
+            }
+          ]
+        },
+        {
+          "id": "c1081543-8f29-423b-a54a-ae7908494b47",
+          "name": "narrator",
+          "type": "composition",
+          "track": 10,
+          "time": "1 s",
+          "x": "24.8365%",
+          "y": "45.5836%",
+          "width": "17.8239%",
+          "height": "9.8805%",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "x_anchor": "0%",
+              "end_angle": "90°",
+              "start_angle": "90°"
+            }
+          ],
+          "elements": [
+            {
+              "id": "6fe93cf5-3b76-4039-b375-d5b0f4ed7d56",
+              "name": "avatarVideo",
+              "type": "video",
+              "track": 1,
+              "y": "25.6541%",
+              "stroke_color": "#ffffff",
+              "stroke_width": "0.2 vmin",
+              "border_radius": "1 vmin",
+              "source": "https://cdn.vidiofy.ai/pipeline/avatar/DID/105f7919-65ee-48cf-88ba-988aee04dac7.mp4"
+            }
+          ]
+        },
+        {
+          "id": "43e03f63-2e6e-4ccb-a444-5eeb30738d30",
+          "name": "video-1",
+          "type": "video",
+          "track": 11,
+          "duration": null,
+          "width": "177.7778%",
+          "height": "56.25%",
+          "z_rotation": "90°",
+          "blend_mode": "screen",
+          "source": "https://cdn.vidiofy.ai/templates/assets/1696936860573/19522291-2d19-4a14-aa32-70f67c1ab08f",
+          "loop": true,
+          "volume": "0%"
+        }
+      ]
+    },
+    {
+      "id": "9fcaa7c2-1d49-4a73-ac41-18eb8c3171f3",
+      "name": "slide2",
+      "type": "composition",
+      "track": 1,
+      "elements": [
+        {
+          "id": "001728ef-4e98-4fe7-ae50-7ddb2448d51e",
+          "name": "shape-1",
+          "type": "shape",
+          "track": 1,
+          "width": "100%",
+          "height": "100%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "fill_color": "#000000",
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "8282d0fe-0ad9-4312-ab09-cec80902dd26",
+          "name": "sceneImage-1",
+          "type": "image",
+          "track": 2,
+          "width": "105%",
+          "height": "105%",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "pan",
+              "end_x": "50%",
+              "scope": "element",
+              "start_x": "50%",
+              "start_y": "100%",
+              "end_scale": "100%"
+            },
+            {
+              "easing": "linear",
+              "type": "wiggle",
+              "count": 1,
+              "frequency": "0.23 Hz",
+              "z_rotation": "-2°"
+            }
+          ],
+          "source": "https://cdn.vidiofy.ai/pipeline/parser/1697040617551/2d956cac-1106-4e87-aebd-3bc5f78a49a7.JPG",
+          "smart_crop": true
+        },
+        {
+          "id": "1ca3a0e4-a376-4d89-bf09-7accb87ceecf",
+          "name": "overlayimage-1",
+          "type": "image",
+          "track": 3,
+          "time": "0 s",
+          "y": "15.5604%",
+          "height": "168.8791%",
+          "z_rotation": "-180°",
+          "opacity": "50%",
+          "source": "https://cdn.vidiofy.ai/templates/assets/1696838044959/fe2869c7-3546-4e84-82f7-ce8cc91a92b9"
+        },
+        {
+          "id": "a85aa785-d780-4dc4-bfa7-028f8d8a5dba",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 4,
+          "x": "48.6346%",
+          "y": "50.1665%",
+          "width": "68.3804%",
+          "height": "22.5152%",
+          "elements": [
+            {
+              "id": "b3636d8d-2ed2-4e3d-83c6-c78ebfca42e6",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "x": "0%",
+              "y": "17.4418%",
+              "width": "100%",
+              "height": "65.1165%",
+              "x_anchor": "0%",
+              "y_anchor": "0%",
+              "y_alignment": "50%",
+              "fill_color": "#ffea6f",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "2 s",
+                  "easing": "quadratic-out",
+                  "type": "text-fly",
+                  "overlap": "50%"
+                }
+              ],
+              "text": "Innovative Kameo System in Mortal Kombat 1",
+              "font_family": "Plus Jakarta Sans",
+              "font_weight": "700",
+              "font_size_maximum": "7 vmin"
+            }
+          ]
+        },
+        {
+          "id": "e7aedd0a-5c8e-469e-9eb8-3b825b064eb2",
+          "name": "narratorText",
+          "type": "text",
+          "track": 5,
+          "time": "1 s",
+          "x": "47.9329%",
+          "y": "72.2861%",
+          "width": "66.9769%",
+          "height": "18.4658%",
+          "fill_color": "#ffffff",
+          "text": [
+            {
+              "time": "0.009 s",
+              "value": "[color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]The[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.109 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]new[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.289 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Kameo[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.73 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]system[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "1.149 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]offers[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "1.509 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]an[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "1.6 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]unparalleled[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.359 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]level[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.63 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]of[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.7 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]player[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.029 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]expression[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.569 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]for[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.71 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]the[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.799 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]series,[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "4.48 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series,[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]allowing[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "5.07 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]you[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "5.15 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]to[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "5.269 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]essentially[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "5.829 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]break[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.17 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]the[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.269 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break the[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]usual[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.67 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break the usual[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]rules[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.96 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break the usual rules[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]of[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "7.07 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break the usual rules of[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]the[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "7.159 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break the usual rules of the[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]game[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "7.67 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break the usual rules of the game[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]by[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "7.949 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break the usual rules of the game by[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]giving[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.229 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break the usual rules of the game by giving[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]characters[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.77 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break the usual rules of the game by giving characters[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]tools[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9.189 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break the usual rules of the game by giving characters tools[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]that[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9.3 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break the usual rules of the game by giving characters tools that[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]they[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9.47 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break the usual rules of the game by giving characters tools that they[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]weren’t[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9.75 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break the usual rules of the game by giving characters tools that they weren’t[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]designed[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "10.14 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break the usual rules of the game by giving characters tools that they weren’t designed[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]to[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "10.229 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The new Kameo system offers an unparalleled level of player expression for the series, allowing you to essentially break the usual rules of the game by giving characters tools that they weren’t designed to[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]have.[/size][/weight][/family][/color]"
+            }
+          ],
+          "font_family": "Plus Jakarta Sans",
+          "font_weight": "700",
+          "font_size_maximum": "5 vmin"
+        },
+        {
+          "id": "4692c112-7381-47b5-ae1c-791f92956e1c",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 6,
+          "time": "1 s",
+          "visible": false,
+          "x": "47.9329%",
+          "y": "69.676%",
+          "width": "66.9769%",
+          "height": "18.4658%",
+          "fill_color": "rgba(255,234,111,1)",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1.8991 s",
+              "easing": "quadratic-out",
+              "type": "text-appear",
+              "split": "word"
+            }
+          ],
+          "text": "Discover AI's role in revolutionizing video creation",
+          "font_family": "Plus Jakarta Sans",
+          "font_weight": "700",
+          "font_size_maximum": "5 vmin"
+        },
+        {
+          "id": "8a1da8ba-6411-4cf5-8688-dd66bee5f3d7",
+          "name": "shape-2",
+          "type": "shape",
+          "track": 7,
+          "y": "60.4431%",
+          "width": "1%",
+          "height": "40%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "z_rotation": "90°",
+          "fill_color": "#ffffff",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "2 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "fade": false,
+              "x_anchor": "0%"
+            }
+          ],
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "3a715a44-d9f8-4ae0-abc2-5ad45a87eeb7",
+          "name": "narrator",
+          "type": "composition",
+          "track": 8,
+          "time": "1 s",
+          "x": "23.3564%",
+          "y": "38.2934%",
+          "width": "17.8239%",
+          "height": "9.8805%",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "x_anchor": "0%",
+              "end_angle": "90°",
+              "start_angle": "90°"
+            }
+          ],
+          "elements": [
+            {
+              "id": "f2555eae-a769-4576-8cbb-29d4f289f721",
+              "name": "avatarVideo",
+              "type": "video",
+              "track": 1,
+              "y": "25.6541%",
+              "stroke_color": "#ffffff",
+              "stroke_width": "0.2 vmin",
+              "border_radius": "100 vmin",
+              "source": "https://cdn.vidiofy.ai/pipeline/avatar/DID/d6f01c38-8b62-4b1e-b8ce-f06c6dbf0e5e.mp4"
+            }
+          ]
+        },
+        {
+          "id": "c19af999-6670-4930-a415-39c03120ecd7",
+          "name": "video-1",
+          "type": "video",
+          "track": 9,
+          "duration": null,
+          "width": "177.7778%",
+          "height": "56.25%",
+          "z_rotation": "90°",
+          "blend_mode": "screen",
+          "source": "https://cdn.vidiofy.ai/templates/assets/1696936860573/19522291-2d19-4a14-aa32-70f67c1ab08f",
+          "loop": true,
+          "volume": "0%"
+        }
+      ]
+    },
+    {
+      "id": "c784189c-c78a-4c94-8c68-8d7351230777",
+      "name": "slide3",
+      "type": "composition",
+      "track": 1,
+      "elements": [
+        {
+          "id": "8eff6dab-d15a-4fb8-9463-61f8cf905ef3",
+          "name": "shape-1",
+          "type": "shape",
+          "track": 1,
+          "width": "100%",
+          "height": "100%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "fill_color": "#000000",
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "f4dc0a7f-58ce-43dd-8efb-7a7d432ab7c0",
+          "name": "sceneVideo-1",
+          "type": "video",
+          "track": 3,
+          "duration": null,
+          "width": "105%",
+          "height": "105%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "50%",
+              "scope": "element",
+              "start_x": "50%",
+              "start_y": "100%",
+              "start_scale": "100%"
+            },
+            {
+              "easing": "linear",
+              "type": "wiggle",
+              "count": 1,
+              "frequency": "0.2 Hz",
+              "z_rotation": "2°"
+            }
+          ],
+          "source": "https://cdn.vidiofy.ai/pipeline/assets/1696474513537/4e612d28-0629-43ec-b094-627da8633f1b.mp4",
+          "loop": true,
+          "volume": "0%"
+        },
+        {
+          "id": "73c8aa46-54c0-4d57-9d58-7c227587b9b3",
+          "name": "overlayimage-1",
+          "type": "image",
+          "track": 4,
+          "y": "75.147%",
+          "height": "150.2941%",
+          "z_rotation": "-180°",
+          "opacity": "50%",
+          "source": "https://cdn.vidiofy.ai/templates/assets/1696838058256/061481f0-aef4-41d3-aa96-cfb0b2b4ad34"
+        },
+        {
+          "id": "960edf2a-5cb4-4db6-b43d-6ffb3a2bdfef",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 5,
+          "x": "52.5013%",
+          "y": "21.2576%",
+          "width": "68.3804%",
+          "height": "22.5152%",
+          "elements": [
+            {
+              "id": "3719d575-8a83-4551-a4d7-be2707647689",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "x": "0%",
+              "y": "17.4418%",
+              "width": "100%",
+              "height": "65.1165%",
+              "x_anchor": "0%",
+              "y_anchor": "0%",
+              "y_alignment": "50%",
+              "fill_color": "#ffea6f",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "2 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Revamped Story Mode in Mortal Kombat 1",
+              "font_family": "Plus Jakarta Sans",
+              "font_weight": "700",
+              "font_size_maximum": "7 vmin"
+            }
+          ]
+        },
+        {
+          "id": "25f45998-0dc2-43bd-ad4d-90add33b4809",
+          "name": "narratorText",
+          "type": "text",
+          "track": 6,
+          "time": "1 s",
+          "x": "51.7996%",
+          "y": "40.7671%",
+          "width": "66.9769%",
+          "height": "18.4658%",
+          "fill_color": "#ffffff",
+          "text": [
+            {
+              "time": "0.009 s",
+              "value": "[color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]The[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.109 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]story[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.49 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]mode[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.73 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]this[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.879 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]time[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "1.1 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]around[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "1.46 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]is[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "1.59 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]a[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "1.61 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]true[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "1.95 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]new[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.14 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]beginning[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.549 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]for[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.67 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]the[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.779 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]series,[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.5 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series,[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]and[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.7 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]that’s[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.9 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]uniquely[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "4.389 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]satisfying.[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "5.409 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying.[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]This[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "5.71 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]isn’t[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "5.989 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]just[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.15 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]a[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.17 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]timeline[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.829 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a timeline[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]reset[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "7.23 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a timeline reset[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]like[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "7.409 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a timeline reset like[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Mortal[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "7.78 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a timeline reset like Mortal[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Kombat[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.229 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a timeline reset like Mortal Kombat[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]9[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.909 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a timeline reset like Mortal Kombat 9[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]–[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9.079 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a timeline reset like Mortal Kombat 9 –[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]the[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9.569 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a timeline reset like Mortal Kombat 9 – the[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]entire[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "10.01 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a timeline reset like Mortal Kombat 9 – the entire[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]history[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "10.09 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a timeline reset like Mortal Kombat 9 – the entire history[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]of[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "10.43 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a timeline reset like Mortal Kombat 9 – the entire history of[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Mortal[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "10.88 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a timeline reset like Mortal Kombat 9 – the entire history of Mortal[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Kombat[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "11.1 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a timeline reset like Mortal Kombat 9 – the entire history of Mortal Kombat[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]has[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "11.229 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a timeline reset like Mortal Kombat 9 – the entire history of Mortal Kombat has[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]been[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "11.729 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]The story mode this time around is a true new beginning for the series, and that’s uniquely satisfying. This isn’t just a timeline reset like Mortal Kombat 9 – the entire history of Mortal Kombat has been[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]re-written.[/size][/weight][/family][/color]"
+            }
+          ],
+          "font_family": "Plus Jakarta Sans",
+          "font_weight": "700",
+          "font_size_maximum": "5 vmin"
+        },
+        {
+          "id": "0882c599-1428-4bc3-bf51-59f0bec93076",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 7,
+          "time": "1 s",
+          "visible": false,
+          "x": "51.7996%",
+          "y": "40.7671%",
+          "width": "66.9769%",
+          "height": "18.4658%",
+          "fill_color": "rgba(255,234,111,1)",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1.8991 s",
+              "easing": "quadratic-out",
+              "type": "text-appear",
+              "split": "word"
+            }
+          ],
+          "text": "Discover AI's role in revolutionizing video creation",
+          "font_family": "Plus Jakarta Sans",
+          "font_weight": "700",
+          "font_size_maximum": "5 vmin"
+        },
+        {
+          "id": "61f27880-7330-4253-bd02-8808e967cb97",
+          "name": "shape-2",
+          "type": "shape",
+          "track": 8,
+          "time": "0 s",
+          "x": "13.9241%",
+          "y": "35.7445%",
+          "width": "1.2313%",
+          "height": "51.4889%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "fill_color": "#ffffff",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "2.5662 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "fade": false,
+              "x_anchor": "0%",
+              "end_angle": "90°",
+              "start_angle": "90°"
+            }
+          ],
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "a1139992-4a36-4d0c-a900-ef764adf6660",
+          "name": "shape-3",
+          "type": "shape",
+          "track": 9,
+          "time": "1 s",
+          "x": "27.2231%",
+          "y": "11.4419%",
+          "width": "17.8239%",
+          "height": "2.4055%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "stroke_color": "#ffffff",
+          "stroke_width": "0.2 vmin",
+          "border_radius": "1 vmin",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "x_anchor": "0%"
+            }
+          ],
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "95a9653a-74ec-43ee-85bc-b2e691c7f1e4",
+          "name": "text-1",
+          "type": "text",
+          "track": 10,
+          "time": "1 s",
+          "x": "27.2231%",
+          "y": "11.4419%",
+          "width": "14.2778%",
+          "height": "2.0229%",
+          "fill_color": "#ffffff",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "text-appear",
+              "split": "word"
+            }
+          ],
+          "text": "VIDIOFY.AI",
+          "font_family": "Plus Jakarta Sans",
+          "font_weight": "700",
+          "font_size_maximum": "4.5 vmin"
+        },
+        {
+          "id": "d79f3317-248f-4b3e-b742-ab7b7c727793",
+          "name": "narrator",
+          "type": "composition",
+          "track": 12,
+          "time": "1 s",
+          "x": "27.223%",
+          "y": "58.9191%",
+          "width": "17.8239%",
+          "height": "9.8805%",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "x_anchor": "0%",
+              "end_angle": "90°",
+              "start_angle": "90°"
+            }
+          ],
+          "elements": [
+            {
+              "id": "a78286d8-b88b-4e04-9b12-04a8d69fc3bb",
+              "name": "avatarVideo",
+              "type": "video",
+              "track": 1,
+              "y": "25.6541%",
+              "stroke_color": "#ffffff",
+              "stroke_width": "0.2 vmin",
+              "border_radius": "1 vmin",
+              "source": "https://cdn.vidiofy.ai/pipeline/avatar/DID/a1027f5d-313f-4021-a8bc-913c6d9655a5.mp4"
+            }
+          ]
+        },
+        {
+          "id": "dae2f8b4-e520-47f2-9f58-3580270192e6",
+          "name": "video-1",
+          "type": "video",
+          "track": 13,
+          "duration": null,
+          "width": "177.7778%",
+          "height": "56.25%",
+          "z_rotation": "90°",
+          "blend_mode": "screen",
+          "source": "https://cdn.vidiofy.ai/templates/assets/1696936860573/19522291-2d19-4a14-aa32-70f67c1ab08f",
+          "loop": true,
+          "volume": "0%"
+        }
+      ]
+    },
+    {
+      "id": "33e0d156-760d-4942-bb45-30462c1d87db",
+      "name": "slide4",
+      "type": "composition",
+      "track": 1,
+      "elements": [
+        {
+          "id": "a971b6c6-b26b-4535-816a-584ca8c6bb29",
+          "name": "shape-1",
+          "type": "shape",
+          "track": 1,
+          "width": "100%",
+          "height": "100%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "fill_color": "#000000",
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "9fd8f2f0-ec7f-43c6-9092-c4bc25dba2c0",
+          "name": "sceneImage-1",
+          "type": "image",
+          "track": 2,
+          "width": "105%",
+          "height": "105%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "50%",
+              "scope": "element",
+              "start_y": "0%",
+              "start_scale": "100%"
+            },
+            {
+              "easing": "linear",
+              "type": "wiggle",
+              "count": 1,
+              "frequency": "0.23 Hz",
+              "z_rotation": "-2°"
+            }
+          ],
+          "source": "https://cdn.vidiofy.ai/pipeline/assets/1697040752499/737c51fe-66e6-4172-9fa0-abf80c561839.jpg",
+          "smart_crop": true
+        },
+        {
+          "id": "032a20d0-28f6-470c-b3be-92719eb30fde",
+          "name": "overlayimage-2",
+          "type": "image",
+          "track": 3,
+          "y": "30.453%",
+          "height": "139.094%",
+          "opacity": "50%",
+          "source": "https://cdn.vidiofy.ai/templates/assets/1696838058256/061481f0-aef4-41d3-aa96-cfb0b2b4ad34"
+        },
+        {
+          "id": "3d607af9-9de7-4b08-b36d-c54568f24b45",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 4,
+          "x": "50.1147%",
+          "y": "59.1368%",
+          "width": "68.3804%",
+          "height": "22.5152%",
+          "elements": [
+            {
+              "id": "141fa702-7819-472c-ae83-871539cf31bc",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "x": "0%",
+              "y": "17.4418%",
+              "width": "100%",
+              "height": "65.1165%",
+              "x_anchor": "0%",
+              "y_anchor": "0%",
+              "y_alignment": "50%",
+              "fill_color": "#ffea6f",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "2 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Introduction of Invasions Mode in Mortal Kombat 1",
+              "font_family": "Plus Jakarta Sans",
+              "font_weight": "700",
+              "font_size_maximum": "7 vmin"
+            }
+          ]
+        },
+        {
+          "id": "76f82f90-b5a4-4cfd-8881-84af06f06d34",
+          "name": "narratorText",
+          "type": "text",
+          "track": 5,
+          "time": "1 s",
+          "x": "49.413%",
+          "y": "78.6463%",
+          "width": "66.9769%",
+          "height": "18.4658%",
+          "fill_color": "#ffffff",
+          "text": [
+            {
+              "time": "0.009 s",
+              "value": "[color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Beyond[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.379 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]the[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.46 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]cinematic[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.99 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]story[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "1.32 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]mode,[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "1.85 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode,[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]the[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]big[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.329 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]new[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.529 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]single-player[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.9 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]mode[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.23 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]for[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.509 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Mortal[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.609 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Kombat[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.93 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]1[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "4.409 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]is[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "4.63 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Invasions,[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "4.809 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions,[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]which[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "5.65 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]combines[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]the[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.51 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]themed[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.65 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]environments[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.94 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]and[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "7.519 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]rewards[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "7.63 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]of[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.079 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]The[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.189 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Krypt,[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.279 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt,[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]some[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.92 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]light[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9.289 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]RPG[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9.59 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]elements[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "10.119 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]from[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "10.529 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]older[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "10.72 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Konquest[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "11.039 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]modes,[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "11.579 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes,[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]and[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "12.25 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]the[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "12.47 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]quick[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "12.52 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]back-to-back[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "12.829 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]gimmicky[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "13.09 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back gimmicky[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]battles[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "13.17 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back gimmicky battles[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]of[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "13.409 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back gimmicky battles of[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]the[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "13.829 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back gimmicky battles of the[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Towers[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "14.21 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back gimmicky battles of the Towers[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]of[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "14.31 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back gimmicky battles of the Towers of[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Time,[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "14.409 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back gimmicky battles of the Towers of Time,[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]packaged[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "14.779 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back gimmicky battles of the Towers of Time, packaged[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]in[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "14.869 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back gimmicky battles of the Towers of Time, packaged in[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]the[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "15.35 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back gimmicky battles of the Towers of Time, packaged in the[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]form[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "15.97 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back gimmicky battles of the Towers of Time, packaged in the form[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]of[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "16.03 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back gimmicky battles of the Towers of Time, packaged in the form of[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]a[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "16.17 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back gimmicky battles of the Towers of Time, packaged in the form of a[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]virtual[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "16.43 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back gimmicky battles of the Towers of Time, packaged in the form of a virtual[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]game[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "16.62 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]Beyond the cinematic story mode, the big new single-player mode for Mortal Kombat 1 is Invasions, which combines the themed environments and rewards of The Krypt, some light RPG elements from older Konquest modes, and the quick back-to-back gimmicky battles of the Towers of Time, packaged in the form of a virtual game[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]board.[/size][/weight][/family][/color]"
+            }
+          ],
+          "font_family": "Plus Jakarta Sans",
+          "font_weight": "700",
+          "font_size_maximum": "5 vmin"
+        },
+        {
+          "id": "51556f88-8587-4d65-bb7c-e6addc1f3c49",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 6,
+          "time": "1 s",
+          "visible": false,
+          "x": "49.413%",
+          "y": "78.6463%",
+          "width": "66.9769%",
+          "height": "18.4658%",
+          "fill_color": "rgba(255,234,111,1)",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1.8991 s",
+              "easing": "quadratic-out",
+              "type": "text-appear",
+              "split": "word"
+            }
+          ],
+          "text": "Discover AI's role in revolutionizing video creation",
+          "font_family": "Plus Jakarta Sans",
+          "font_weight": "700",
+          "font_size_maximum": "5 vmin"
+        },
+        {
+          "id": "e0eae583-45dc-483d-8224-91b298b74393",
+          "name": "shape-2",
+          "type": "shape",
+          "track": 7,
+          "x": "11.6719%",
+          "y": "63.0373%",
+          "width": "1.5%",
+          "height": "49.6837%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "fill_color": "#ffffff",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "2.5662 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "fade": false,
+              "x_anchor": "0%",
+              "end_angle": "90°",
+              "start_angle": "90°"
+            }
+          ],
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "8eaeecdc-5134-436f-b940-204b6701702d",
+          "name": "shape-3",
+          "type": "shape",
+          "track": 8,
+          "time": "1 s",
+          "x": "24.8365%",
+          "y": "49.3211%",
+          "width": "17.8239%",
+          "height": "2.4055%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "stroke_color": "#ffffff",
+          "stroke_width": "0.2 vmin",
+          "border_radius": "1 vmin",
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "e14eb37a-62f5-478d-a1af-25756407ae9c",
+          "name": "text-1",
+          "type": "text",
+          "track": 9,
+          "time": "1 s",
+          "x": "24.8365%",
+          "y": "49.3211%",
+          "width": "14.2778%",
+          "height": "2.0229%",
+          "fill_color": "#ffffff",
+          "text": "VIDIOFY.AI",
+          "font_family": "Plus Jakarta Sans",
+          "font_weight": "700",
+          "font_size_maximum": "4.5 vmin"
+        },
+        {
+          "id": "09629d7c-4d15-4921-90ec-b75f329174a2",
+          "name": "narrator",
+          "type": "composition",
+          "track": 10,
+          "time": "1 s",
+          "x": "24.8365%",
+          "y": "45.5836%",
+          "width": "17.8239%",
+          "height": "9.8805%",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "x_anchor": "0%",
+              "end_angle": "90°",
+              "start_angle": "90°"
+            }
+          ],
+          "elements": [
+            {
+              "id": "0e675f4c-6982-4a83-86fd-0dabb8fee45e",
+              "name": "avatarVideo",
+              "type": "video",
+              "track": 1,
+              "y": "25.6541%",
+              "stroke_color": "#ffffff",
+              "stroke_width": "0.2 vmin",
+              "border_radius": "1 vmin",
+              "source": "https://cdn.vidiofy.ai/pipeline/avatar/DID/c109817c-98d8-4ff3-adc5-a43e94947e7d.mp4"
+            }
+          ]
+        },
+        {
+          "id": "e019f5af-26b0-45f1-abfc-9c8c5e1a8a41",
+          "name": "video-1",
+          "type": "video",
+          "track": 11,
+          "duration": null,
+          "width": "177.7778%",
+          "height": "56.25%",
+          "z_rotation": "90°",
+          "blend_mode": "screen",
+          "source": "https://cdn.vidiofy.ai/templates/assets/1696936860573/19522291-2d19-4a14-aa32-70f67c1ab08f",
+          "loop": true,
+          "volume": "0%"
+        }
+      ]
+    },
+    {
+      "id": "b3fc467c-f164-44ed-9230-1c59397e34c5",
+      "name": "slide5",
+      "type": "composition",
+      "track": 1,
+      "animations": [
+        {
+          "time": "start",
+          "duration": "1 s",
+          "easing": "quadratic-out",
+          "type": "color-wipe",
+          "color": "#ffea6f",
+          "direction": "right"
+        }
+      ],
+      "elements": [
+        {
+          "id": "c8f06bcc-24d1-4d3f-9b0c-d3611ac46880",
+          "name": "shape-1",
+          "type": "shape",
+          "track": 1,
+          "width": "100%",
+          "height": "100%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "fill_color": "#000000",
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "ed140baf-3709-4fd4-b599-bf1d8717665d",
+          "name": "sceneVideo-1",
+          "type": "video",
+          "track": 2,
+          "duration": null,
+          "x": [
+            {
+              "time": "0 s",
+              "value": "50%"
+            }
+          ],
+          "y": [
+            {
+              "time": "0 s",
+              "value": "50%"
+            }
+          ],
+          "width": [
+            {
+              "time": "0 s",
+              "value": "120%"
+            },
+            {
+              "time": "1 s",
+              "value": "105%"
+            }
+          ],
+          "height": [
+            {
+              "time": "0 s",
+              "value": "120%"
+            },
+            {
+              "time": "1 s",
+              "value": "105%"
+            }
+          ],
+          "blur_radius": [
+            {
+              "time": "0 s",
+              "value": 100
+            },
+            {
+              "time": "1 s",
+              "value": 0
+            }
+          ],
+          "blur_mode": "box",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "wiggle",
+              "count": 2,
+              "frequency": "0.46 Hz",
+              "z_rotation": "3°"
+            },
+            {
+              "time": "end",
+              "duration": "3.3437 s",
+              "type": "pan",
+              "end_x": "50%",
+              "end_y": "0%",
+              "scope": "element",
+              "start_x": "50%",
+              "start_y": "0%",
+              "end_scale": "120%",
+              "start_scale": "100%"
+            }
+          ],
+          "source": "https://cdn.vidiofy.ai/pipeline/assets/1697040770634/5ef0ae1f-a97b-4683-ab18-30ed534454a8.mp4",
+          "loop": true,
+          "volume": "0%"
+        },
+        {
+          "id": "6ce6e6d3-b886-488a-8de5-c7bd4c93ddfd",
+          "name": "overlayimage-1",
+          "type": "image",
+          "track": 3,
+          "y": "30.9896%",
+          "height": "138.0208%",
+          "z_rotation": "-180°",
+          "opacity": "50%",
+          "source": "https://cdn.vidiofy.ai/templates/assets/1696838044959/fe2869c7-3546-4e84-82f7-ce8cc91a92b9"
+        },
+        {
+          "id": "c923626d-3ae3-419f-b9ce-60058b745513",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 4,
+          "x": "50.1147%",
+          "y": "59.1368%",
+          "width": "68.3804%",
+          "height": "22.5152%",
+          "elements": [
+            {
+              "id": "d94e8690-4b12-4a47-8011-1ddffbd86063",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "x": "0%",
+              "y": "17.4418%",
+              "width": "100%",
+              "height": "65.1165%",
+              "x_anchor": "0%",
+              "y_anchor": "0%",
+              "y_alignment": "50%",
+              "fill_color": "#ffea6f",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "2 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Stunning Graphics and Character Models in Mortal Kombat 1",
+              "font_family": "Plus Jakarta Sans",
+              "font_weight": "700",
+              "font_size_maximum": "7 vmin"
+            }
+          ]
+        },
+        {
+          "id": "681adce3-ac64-42ba-92fb-869971b7bee6",
+          "name": "narratorText",
+          "type": "text",
+          "track": 5,
+          "time": "1 s",
+          "x": "49.413%",
+          "y": "78.6463%",
+          "width": "66.9769%",
+          "height": "18.4658%",
+          "fill_color": "#ffffff",
+          "text": [
+            {
+              "time": "0.009 s",
+              "value": "[color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]One[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.209 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]thing[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.439 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]that[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.55 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]can’t[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.819 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]be[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "0.92 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]overstated[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "1.6 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]is[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "1.7 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]how[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "1.909 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]gorgeous[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.42 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Mortal[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "2.799 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Kombat[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.279 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]1[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "3.46 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]looks.[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "4.3 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks.[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]The[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "4.469 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]character[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "4.88 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]models[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "5.239 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]already[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "5.619 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]looked[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "5.86 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]incredible[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.389 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]in[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.449 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Mortal[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "6.769 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]Kombat[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "7.15 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]11,[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "7.889 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11,[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]but[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.1 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]here[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.35 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but here[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]they’re[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.489 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but here they’re[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]taken[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.859 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but here they’re taken[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]a[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "8.88 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but here they’re taken a[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]step[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9.17 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but here they’re taken a step[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]even[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9.479 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but here they’re taken a step even[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]further[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "9.89 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but here they’re taken a step even further[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]towards[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "10.21 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but here they’re taken a step even further towards[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]photorealism[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "10.51 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but here they’re taken a step even further towards photorealism[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]without[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "11.21 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but here they’re taken a step even further towards photorealism without[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]ever[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "11.569 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but here they’re taken a step even further towards photorealism without ever[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]causing[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "11.81 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but here they’re taken a step even further towards photorealism without ever causing[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]that[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "12.229 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but here they’re taken a step even further towards photorealism without ever causing that[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]uncanny[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "12.359 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but here they’re taken a step even further towards photorealism without ever causing that uncanny[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]valley[/size][/weight][/family][/color]"
+            },
+            {
+              "time": "12.92 s",
+              "value": "[color #ffffff][family Plus Jakarta Sans][weight 700][size 100 vmin]One thing that can’t be overstated is how gorgeous Mortal Kombat 1 looks. The character models already looked incredible in Mortal Kombat 11, but here they’re taken a step even further towards photorealism without ever causing that uncanny valley[/size][/weight][/family][/color] [color rgba(255,234,111,1)][family Plus Jakarta Sans][weight 700][size 100.0 vmin]feeling.[/size][/weight][/family][/color]"
+            }
+          ],
+          "font_family": "Plus Jakarta Sans",
+          "font_weight": "700",
+          "font_size_maximum": "5 vmin"
+        },
+        {
+          "id": "bc8aec34-e757-4900-a65a-ce45879f99ed",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 6,
+          "time": "1 s",
+          "visible": false,
+          "x": "49.413%",
+          "y": "78.6463%",
+          "width": "66.9769%",
+          "height": "18.4658%",
+          "fill_color": "rgba(255,234,111,1)",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1.8991 s",
+              "easing": "quadratic-out",
+              "type": "text-appear",
+              "split": "word"
+            }
+          ],
+          "text": "Discover AI's role in revolutionizing video creation",
+          "font_family": "Plus Jakarta Sans",
+          "font_weight": "700",
+          "font_size_maximum": "5 vmin"
+        },
+        {
+          "id": "897afc4e-4a33-40e0-ab0e-9dafa11736dd",
+          "name": "shape-2",
+          "type": "shape",
+          "track": 8,
+          "x": "11.6719%",
+          "y": "62.986%",
+          "width": "1.5%",
+          "height": "49.7864%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "fill_color": "#ffffff",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "2.5662 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "fade": false,
+              "x_anchor": "0%",
+              "end_angle": "90°",
+              "start_angle": "90°"
+            }
+          ],
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "483b4670-26a8-4687-9940-1abc74170d6d",
+          "name": "composition-2",
+          "type": "composition",
+          "track": 9,
+          "time": "1 s",
+          "x": "24.8365%",
+          "y": "49.3211%",
+          "width": "17.8239%",
+          "height": "2.4055%",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "x_anchor": "0%"
+            }
+          ],
+          "elements": [
+            {
+              "id": "43e475be-d5d2-482e-9220-605ccaa36f93",
+              "name": "shape-3",
+              "type": "shape",
+              "track": 1,
+              "width": "100%",
+              "height": "100%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "stroke_color": "#ffffff",
+              "stroke_width": "0.2 vmin",
+              "border_radius": "1 vmin",
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            },
+            {
+              "id": "e9a4c464-a709-40ad-9286-2f8de695e365",
+              "name": "text-1",
+              "type": "text",
+              "track": 2,
+              "width": "80.1048%",
+              "height": "84.0948%",
+              "fill_color": "#ffffff",
+              "text": "VIDIOFY.AI",
+              "font_family": "Plus Jakarta Sans",
+              "font_weight": "700",
+              "font_size_maximum": "4.5 vmin"
+            }
+          ]
+        },
+        {
+          "id": "3e22eb17-0af2-4565-bdff-49832e1dc1b3",
+          "name": "narrator",
+          "type": "composition",
+          "track": 10,
+          "time": "1 s",
+          "x": "24.8365%",
+          "y": "45.5836%",
+          "width": "17.8239%",
+          "height": "9.8805%",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "x_anchor": "0%",
+              "end_angle": "90°",
+              "start_angle": "90°"
+            }
+          ],
+          "elements": [
+            {
+              "id": "a27d44e2-a35a-4425-8438-84f80eec92fb",
+              "name": "avatarVideo",
+              "type": "video",
+              "track": 1,
+              "y": "25.6541%",
+              "stroke_color": "#ffffff",
+              "stroke_width": "0.2 vmin",
+              "border_radius": "1 vmin",
+              "source": "https://cdn.vidiofy.ai/pipeline/avatar/DID/6c63fbba-ba41-49ef-9c43-500ef3f9c33b.mp4"
+            }
+          ]
+        },
+        {
+          "id": "396b0a66-c049-4ddc-8710-de6eb3bbe24a",
+          "name": "video-1",
+          "type": "video",
+          "track": 11,
+          "duration": null,
+          "width": "177.7778%",
+          "height": "56.25%",
+          "z_rotation": "90°",
+          "blend_mode": "screen",
+          "source": "https://cdn.vidiofy.ai/templates/assets/1696936860573/19522291-2d19-4a14-aa32-70f67c1ab08f",
+          "loop": true,
+          "volume": "0%"
+        }
+      ]
+    },
+    {
+      "id": "9ed51dca-4c98-424a-b5ed-ba9405872531",
+      "name": "slideOutro",
+      "type": "composition",
+      "track": 1,
+      "duration": "5 s",
+      "elements": [
+        {
+          "id": "743debd2-312a-4536-beb0-3fc8735e9d90",
+          "name": "shape-1",
+          "type": "shape",
+          "track": 1,
+          "width": "100%",
+          "height": "100%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "fill_color": "#000000",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "color-wipe",
+              "color": "#ffea6f",
+              "direction": "right"
+            }
+          ],
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "40087758-de0c-4494-9e06-8cecb9e76daa",
+          "name": "video-1",
+          "type": "video",
+          "track": 2,
+          "time": "0 s",
+          "duration": "5 s",
+          "width": "177.7778%",
+          "height": "56.25%",
+          "z_rotation": "90°",
+          "blend_mode": "screen",
+          "source": "https://cdn.vidiofy.ai/templates/assets/1696936860573/19522291-2d19-4a14-aa32-70f67c1ab08f",
+          "loop": true,
+          "volume": "0%"
+        },
+        {
+          "id": "925b250d-095d-447d-8bb5-e5b86bc0db48",
+          "name": "outroText",
+          "type": "text",
+          "track": 3,
+          "time": "1 s",
+          "x": "15.3803%",
+          "y": "38.7424%",
+          "width": "68.3804%",
+          "height": "22.5152%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "y_alignment": "100%",
+          "fill_color": "rgba(255,234,111,1)",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "2 s",
+              "easing": "quadratic-out",
+              "type": "text-reveal",
+              "axis": "y",
+              "y_anchor": "0%"
+            },
+            {
+              "time": "end",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "reversed": true,
+              "type": "text-appear",
+              "split": "word"
+            }
+          ],
+          "text": "The Easiest & Fastest Way To Convert Articles Into Reels",
+          "font_family": "Plus Jakarta Sans",
+          "font_weight": "700"
+        },
+        {
+          "id": "42946385-1bc2-4f26-b957-c632b19610ab",
+          "name": "composition-2",
+          "type": "composition",
+          "track": 4,
+          "time": "1 s",
+          "x": "24.2923%",
+          "y": "37.017%",
+          "width": "17.8239%",
+          "height": "2.4055%",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "wipe",
+              "x_anchor": "0%"
+            },
+            {
+              "time": "end",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "reversed": true,
+              "type": "wipe",
+              "x_anchor": "0%"
+            }
+          ],
+          "elements": [
+            {
+              "id": "1f5819e5-11db-42a9-aea8-d1d0c9bf9ab8",
+              "name": "shape-2",
+              "type": "shape",
+              "track": 1,
+              "width": "100%",
+              "height": "100%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "stroke_color": "#ffffff",
+              "stroke_width": "0.2 vmin",
+              "border_radius": "1 vmin",
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            },
+            {
+              "id": "ec858981-b7b4-4201-b0ba-17e9e0a93594",
+              "name": "text-1",
+              "type": "text",
+              "track": 2,
+              "width": "80.1048%",
+              "height": "84.0948%",
+              "fill_color": "#ffffff",
+              "text": "VIDIOFY.AI",
+              "font_family": "Plus Jakarta Sans",
+              "font_weight": "700",
+              "font_size_maximum": "4.5 vmin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6d9a6ded-4359-49c5-84c9-45bcb61c836e",
+      "name": "bgm",
+      "type": "audio",
+      "track": 2,
+      "duration": null,
+      "source": "https://cdn.vidiofy.ai/templates/assets/1696936869859/5b17fb97-b405-4cef-878a-3732c45dea8c",
+      "loop": true,
+      "volume": "20%",
+      "audio_fade_out": "3 s"
+    }
+  ]
+}
