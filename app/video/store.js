@@ -134,21 +134,14 @@ const editorSlice = createSlice({
     setActiveElementId: (state, action) => {
       state.selectedElementId = action.payload;
     },
-    updateElementText: (state, action) => {
-      state.overrides[`${action.payload.id}.text`] = action.payload.text;
-    },
     setGlobalTime: (state, action) => {
       state.globalTime = action.payload;
     },
   },
 });
 
-export const {
-  handleElementClick,
-  updateElementText,
-  setActiveElementId,
-  setGlobalTime,
-} = editorSlice.actions;
+export const { handleElementClick, setActiveElementId, setGlobalTime } =
+  editorSlice.actions;
 export const { setCreatomateState, setActiveCompositionId, deleteElement } =
   timeLineSlice.actions;
 

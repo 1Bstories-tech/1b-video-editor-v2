@@ -118,6 +118,7 @@ const PreviewWrapper = () => {
         await preview.current.setSource(newState, true);
       }
     });
+
     previewEmitter.on("deleteElement", async (element) => {
       if (isReaderReady) {
         const state = await preview.current.getSource();
