@@ -103,7 +103,6 @@ const templateSlice = createSlice({
 const timeLineInitialState = {
   globalTime: 0,
   creatomateState: null,
-  previousCreatomateState: null,
   activeCompositionId: null,
 };
 const timeLineSlice = createSlice({
@@ -111,9 +110,6 @@ const timeLineSlice = createSlice({
   initialState: timeLineInitialState,
   reducers: {
     setCreatomateState: (state, action) => {
-      if (state.creatomateState === null) {
-        state.previousCreatomateState = action.payload;
-      }
       state.creatomateState = action.payload;
     },
     setActiveCompositionId: (state, action) => {
@@ -173,11 +169,8 @@ const getTemplateState = (state) => state[templateSlice.name];
 const getTimeLineState = (state) => state[timeLineSlice.name];
 
 const getPreviewState = (state) => state[previewSlice.name];
-export const getTemplateJSON = createSelector(
-  getTemplateState,
-  (state) => state.templateJSON,
-);
-export const getSelectedElement = createSelector(getFullState, (state) => {
+
+const getSelectedElementState = (state) => {
   const editorState = state[editorSlice.name];
   const createomateState = state[timeLineSlice.name].creatomateState;
   const selectedElement = findNestedElementByIdV2(
@@ -188,7 +181,15 @@ export const getSelectedElement = createSelector(getFullState, (state) => {
     return selectedElement.source;
   }
   return null;
-});
+};
+export const getTemplateJSON = createSelector(
+  getTemplateState,
+  (state) => state.templateJSON,
+);
+export const getSelectedElement = createSelector(
+  getFullState,
+  getSelectedElementState,
+);
 
 export const getSelectedElementId = createSelector(
   getEditorState,
@@ -228,15 +229,8 @@ export const getTimelineTracks = createSelector(getTimeLineState, (state) => {
   };
 });
 
-export const getOverridesToSave = createSelector(getTimeLineState, (state) => {
-  return [];
-});
-
 export const getIsPlaying = createSelector(getPreviewState, (state) => {
   return state.isPlaying;
-});
-export const getBreadCrumbs = createSelector(getTimeLineState, (state) => {
-  return [];
 });
 
 export const getCreatomateState = createSelector(getTimeLineState, (state) => {

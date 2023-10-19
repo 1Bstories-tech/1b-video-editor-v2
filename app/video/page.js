@@ -280,20 +280,14 @@ const FormElement = ({ property }) => {
         defaultValue={defaultValue}
         onChange={(e) => {
           setValue(e.target.value);
-        }}
-      />
-      <button
-        onClick={() => {
           previewEmitter.emit("updateElement", {
             id: selectedElement.id,
             props: {
-              [property]: value,
+              [property]: e.target.value,
             },
           });
         }}
-      >
-        update
-      </button>
+      />
     </div>
   );
 };
