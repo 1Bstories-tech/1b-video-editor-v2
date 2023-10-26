@@ -184,6 +184,15 @@ const PreviewWrapper = () => {
       process.env.NEXT_PUBLIC_VIDEO_PLAYER_TOKEN,
     );
     preview.current = _preview;
+
+    _preview.onLoad = async () => {
+      console.log("loading");
+    };
+
+    _preview.onLoadComplete = async () => {
+      console.log("loading complete");
+    };
+
     _preview.onReady = async () => {
       setIsReaderReady(true);
       await _preview.setZoom("auto");
