@@ -3,6 +3,7 @@ import { Provider, useDispatch, useSelector } from "react-redux";
 import {
   findNestedElementById,
   findNestedParentById,
+  getCreatomateOverrides,
   getCreatomateState,
   getGlobalTime,
   getIsPlaying,
@@ -24,6 +25,7 @@ import { useEffect, useRef, useState } from "react";
 import _ from "lodash";
 import { enablePatches, produce } from "immer";
 import { previewEmitter } from "@/app/video/previewEmitter";
+import jsonDiff from "json-diff";
 
 enablePatches();
 
@@ -81,7 +83,10 @@ const PreviewWrapper = () => {
   const templateJSON = useSelector(getTemplateJSON);
   const overrides = useSelector(getOverrides);
   const selectedElementId = useSelector(getSelectedElementId);
+  const creatomateOverrrides = useSelector(getCreatomateOverrides);
   const dispatch = useDispatch();
+
+  console.log(creatomateOverrrides);
 
   useEffect(() => {
     previewEmitter.on("play", () => {
@@ -213,7 +218,7 @@ const PreviewWrapper = () => {
     };
     _preview.onStateChange = _.debounce((state) => {
       dispatch(setCreatomateState(state));
-    });
+    }, 1000);
   }, [dispatch, templateJSON]);
 
   useEffect(() => {

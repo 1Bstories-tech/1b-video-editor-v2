@@ -6,7 +6,21 @@ import {
 } from "@reduxjs/toolkit";
 import templateJSON from "@/app/video/template.json";
 import _ from "lodash";
+import jsonDiff from "json-diff";
 
+export const getAllElementSource = (state) => {
+  const elements = [];
+  const findElements = (element) => {
+    if (element?.source?.id) {
+      elements.push(element);
+    }
+    if (element.elements) {
+      element.elements.forEach((child) => findElements(child));
+    }
+  };
+  findElements(state);
+  return elements;
+};
 export const findNestedElementById = (state, id) => {
   let foundElement = null;
   const findElement = (element) => {
@@ -102,6 +116,7 @@ const templateSlice = createSlice({
 
 const timeLineInitialState = {
   globalTime: 0,
+  creatomateFirstState: null,
   creatomateState: null,
   activeCompositionId: null,
 };
@@ -110,6 +125,9 @@ const timeLineSlice = createSlice({
   initialState: timeLineInitialState,
   reducers: {
     setCreatomateState: (state, action) => {
+      if (!state.creatomateFirstState) {
+        state.creatomateFirstState = action.payload;
+      }
       state.creatomateState = action.payload;
     },
     setActiveCompositionId: (state, action) => {
@@ -229,3 +247,88 @@ export const getIsPlaying = createSelector(getPreviewState, (state) => {
 export const getCreatomateState = createSelector(getTimeLineState, (state) => {
   return state.creatomateState;
 });
+
+const getItemId = (item) => {
+  return item.source.id;
+};
+const populateOverrides = (state, diff = {}) => {
+  console.log(diff, "diff");
+  const overrides = {};
+  const deletes = [];
+  const additions = [];
+  const updateOverrides = ([change, element], path) => {
+    if (change === " ") {
+      return;
+    }
+    const stateCopy = _.get(state, path);
+    if (change === "~") {
+      if (stateCopy) {
+        const elementOverrides = {};
+        const id = getItemId(stateCopy);
+        const propsToCopy = _.keys(element.source);
+        _.each(propsToCopy, (propKey) => {
+          const [key, action] = propKey.split("__");
+          const value = element.source[propKey];
+          if (action === "added") {
+            _.set(elementOverrides, key, value);
+          } else if (action === undefined) {
+            if (value?.__new !== undefined) {
+              _.set(elementOverrides, key, value?.__new);
+            }
+          }
+        });
+        if (!_.isEmpty(elementOverrides)) {
+          overrides[id] = elementOverrides;
+        }
+      }
+    }
+    if (change === "+") {
+      additions.push({ source: element.source, path });
+    }
+    if (change === "-") {
+      deletes.push(element.source.id);
+    }
+    if (element && element.elements) {
+      element.elements.forEach((child, index) =>
+        updateOverrides(child, `${path}.elements.${index}`),
+      );
+    }
+  };
+  diff.elements?.forEach((item, index) =>
+    updateOverrides(item, "elements." + index),
+  );
+  return {
+    deletes,
+    overrides,
+    additions,
+  };
+};
+export const getCreatomateOverrides = createSelector(
+  getTimeLineState,
+  (state) => {
+    if (state.creatomateFirstState) {
+      // const elements = getAllElementSource(state.creatomateFirstState);
+      // const elements2 = getAllElementSource(state.creatomateState);
+      // const elementIndex1 = _.keyBy(elements, getItemId);
+      // const elementIndex2 = _.keyBy(elements2, getItemId);
+      // const overrides = {};
+      // _.each(elements, (item) => {
+      //   const id = getItemId(item);
+      //   const diff = jsonDiff.diff(elementIndex1[id], elementIndex2[id]);
+      //   console.log(elementIndex1[id], elementIndex2[id], diff);
+      //   if (diff) {
+      //     overrides[id] = diff;
+      //   }
+      // });
+      // return overrides;
+      const time = Date.now();
+      const diff = jsonDiff.diff(
+        state.creatomateFirstState,
+        state.creatomateState,
+      );
+      console.log(Date.now() - time);
+      return populateOverrides(state.creatomateFirstState, diff);
+    }
+    return {};
+  },
+);
