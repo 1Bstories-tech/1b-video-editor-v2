@@ -25,7 +25,8 @@ import { useEffect, useRef, useState } from "react";
 import _ from "lodash";
 import { enablePatches, produce } from "immer";
 import { previewEmitter } from "@/app/video/previewEmitter";
-import jsonDiff from "json-diff";
+
+export const ALL_HTTPS_URLS_REGEX = /^https:\/\/[^\s\/$.?#].\S*$/;
 
 enablePatches();
 
@@ -201,6 +202,7 @@ const PreviewWrapper = () => {
     _preview.onReady = async () => {
       setIsReaderReady(true);
       await _preview.setZoom("auto");
+      await _preview.setCacheBypassRules([ALL_HTTPS_URLS_REGEX]);
       await _preview.setSource(templateJSON);
     };
     _preview.onActiveElementsChange = async (elements) => {
