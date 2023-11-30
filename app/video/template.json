@@ -1,1462 +1,3676 @@
 {
+  "output_format": "mp4",
+  "width": 720,
+  "height": 1280,
   "elements": [
     {
-      "config": {
-        "slide_no": 1
-      },
-      "duration": "5 s",
+      "id": "8431ff9c-204b-42fd-b1a7-961c73b97533",
+      "name": "slideIntro",
+      "type": "composition",
+      "track": 1,
+      "duration": "4 s",
       "elements": [
         {
-          "fill_color": "#000000",
-          "height": "100%",
-          "id": "b719853b-d8a3-4345-8417-2c600d5d6aaf",
+          "id": "eb451287-c277-473b-9c89-dac5ad7e7491",
           "name": "shape-1",
-          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
-          "track": 1,
           "type": "shape",
+          "track": 1,
+          "time": "0 s",
           "width": "100%",
+          "height": "100%",
           "x_anchor": "50%",
-          "y_anchor": "50%"
+          "y_anchor": "50%",
+          "fill_color": "rgba(247,247,247,1)",
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
         },
         {
-          "elements": [
-            {
-              "animations": [
-                {
-                  "duration": "5 s",
-                  "end_scale": "100%",
-                  "end_x": "50%",
-                  "scope": "element",
-                  "start_scale": "120%",
-                  "start_x": "50%",
-                  "start_y": "100%",
-                  "time": "0 s",
-                  "type": "pan"
-                }
-              ],
-              "id": "8b777276-1048-40af-baa3-9b1e6a73d5d4",
-              "name": "sceneImage-1",
-              "source": "https://stgcdn.vidiofy.ai/pipeline/assets/1698277219872/8a3ea58f-e5e6-4e1c-bd82-a58307c8892c.png",
-              "sourceId": "8eac143f-264a-4734-ac1f-56f55e5b14f3",
-              "track": 1,
-              "type": "image",
-              "smart_crop": false
-            }
-          ],
-          "id": "04cbc070-2b08-4ac6-bcab-bfb03e1aacf1",
-          "name": "composition-1",
-          "track": 2,
+          "id": "44ab75f0-1629-4fbf-a89a-c57ef7e9c8b5",
+          "name": "titleContainer",
           "type": "composition",
-          "width": "110.5%"
-        },
-        {
-          "id": "8dabf4c5-2a69-4b08-8a25-e52929b6630f",
-          "name": "overlayimage-1",
-          "opacity": "70%",
-          "source": "https://stgcdn.vidiofy.ai/templates/assets/1698275858626/6b600548-b495-4ac5-b279-614fc190ede4.png",
-          "sourceId": "6e669ffd-cc07-4725-b07b-357cce5fc6f1",
           "track": 3,
-          "type": "image"
-        },
-        {
+          "time": "0 s",
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
           "elements": [
             {
+              "id": "db6b29dd-c623-46e6-9652-d90c1a82f0cc",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
               "animations": [
                 {
+                  "time": "start",
                   "duration": "1 s",
                   "easing": "quadratic-out",
-                  "split": "word",
-                  "time": "start",
-                  "type": "text-appear"
+                  "type": "text-appear",
+                  "split": "word"
                 }
               ],
-              "fill_color": "rgba(255,234,111,1)",
-              "font_family": "Plus Jakarta Sans",
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
               "font_weight": "700",
-              "height": "100%",
-              "id": "ae32af68-6317-41bc-adf5-56205f4335f6",
-              "name": "titleText",
-              "text": "Embarking on a Global Journey",
-              "track": 1,
-              "type": "text",
-              "width": "100%",
-              "x": "0%",
-              "x_anchor": "0%",
-              "y": "0%",
-              "y_anchor": "0%",
-              "text_direction": "ltr"
-            }
-          ],
-          "height": "22.5152%",
-          "id": "0b5b1b7f-9800-4ad8-9831-8eac41a66422",
-          "name": "titleContainer",
-          "track": 4,
-          "type": "composition",
-          "width": "68.3804%",
-          "x": "53.1614%",
-          "y": "71.26%"
-        },
-        {
-          "animations": [
-            {
-              "duration": "2 s",
-              "easing": "quadratic-out",
-              "end_angle": "90°",
-              "fade": false,
-              "start_angle": "90°",
-              "time": "start",
-              "type": "wipe",
-              "x_anchor": "0%"
-            }
-          ],
-          "fill_color": "#ffffff",
-          "height": "40%",
-          "id": "ef8ded1c-92ae-4aab-89d4-ca17a7bd5d78",
-          "name": "shape-2",
-          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
-          "track": 5,
-          "type": "shape",
-          "width": "1.5%",
-          "x": "11.67%",
-          "x_anchor": "50%",
-          "y": "80%",
-          "y_anchor": "50%"
-        },
-        {
-          "animations": [
-            {
-              "direction": "180°",
-              "duration": "1 s",
-              "easing": "quadratic-out",
-              "time": "start",
-              "type": "slide"
-            }
-          ],
-          "duration": "5 s",
-          "elements": [
-            {
-              "height": "80.414%",
-              "id": "38b52122-4fe7-4dda-b671-29c495a182f1",
-              "name": "image-1",
-              "source": "https://stgcdn.vidiofy.ai/templates/assets/1698275859939/996f774c-a175-4209-8a59-b79ec79a430b.png",
-              "sourceId": "1710f1fe-5814-4642-aae8-290822a19a28",
-              "time": "0 s",
-              "track": 1,
-              "type": "image",
-              "width": "80.4139%",
-              "z_rotation": [
-                {
-                  "time": "0 s",
-                  "value": "360°"
-                },
-                {
-                  "time": "end",
-                  "value": "0°"
-                }
-              ]
-            },
-            {
-              "height": "34.021%",
-              "id": "ea8ccb6e-a3f1-4fd3-9a8b-1ad283f1470b",
-              "name": "image-2",
-              "source": "https://stgcdn.vidiofy.ai/templates/assets/1698275861259/ef341f33-c3d8-40e4-8c99-da46ffb341fd.png",
-              "sourceId": "bbd05cf8-c26e-4fda-a55b-0dc52f3b513e",
-              "time": "0 s",
-              "track": 2,
-              "type": "image",
-              "width": "30.1553%",
-              "z_rotation": [
-                {
-                  "time": "0 s",
-                  "value": "0°"
-                },
-                {
-                  "time": "end",
-                  "value": "360°"
-                }
-              ]
-            }
-          ],
-          "height": "11.2965%",
-          "id": "6147b59f-1de4-40a5-8bc1-c6ba12274532",
-          "name": "composition-2",
-          "time": "0 s",
-          "track": 6,
-          "type": "composition",
-          "width": "20.0827%",
-          "x": "79.277%",
-          "y": "90.965%"
-        },
-        {
-          "blend_mode": "screen",
-          "duration": null,
-          "height": "56.25%",
-          "id": "dff4b0cc-121a-4c63-97ec-8f5ed87c6f54",
-          "loop": true,
-          "name": "video-1",
-          "source": "https://stgcdn.vidiofy.ai/templates/assets/1698276933219/2fb5cedc-09a7-49ca-bcea-d408205265d0.mp4",
-          "sourceId": "abe56b18-883a-49f9-a858-7eb32cb76092",
-          "track": 7,
-          "type": "video",
-          "volume": "0%",
-          "width": "177.7778%",
-          "z_rotation": "90°"
-        }
-      ],
-      "id": "495c63c7-1e7f-4ee0-99dd-aa73b60c5a3d",
-      "name": "slideIntro",
-      "track": 1,
-      "type": "composition"
-    },
-    {
-      "animations": [
-        {
-          "color": "#ffea6f",
-          "direction": "right",
-          "duration": "1 s",
-          "easing": "quadratic-out",
-          "time": "start",
-          "type": "color-wipe"
-        }
-      ],
-      "config": {
-        "slide_no": 2
-      },
-      "duration": "10 s",
-      "elements": [
-        {
-          "fill_color": "#000000",
-          "height": "100%",
-          "id": "9ff635d8-0b68-4758-b19b-c035c2522856",
-          "name": "shape-1",
-          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
-          "track": 1,
-          "type": "shape",
-          "width": "100%",
-          "x_anchor": "50%",
-          "y_anchor": "50%"
-        },
-        {
-          "animations": [
-            {
-              "end_scale": "120%",
-              "end_x": "50%",
-              "end_y": "0%",
-              "scope": "element",
-              "start_scale": "100%",
-              "start_x": "50%",
-              "start_y": "0%",
-              "type": "pan"
-            }
-          ],
-          "blur_mode": "box",
-          "blur_radius": [
-            {
-              "time": "0 s",
-              "value": 100
-            },
-            {
-              "time": "1 s",
-              "value": 0
-            }
-          ],
-          "duration": null,
-          "height": [
-            {
-              "time": "0 s",
-              "value": "120%"
-            },
-            {
-              "time": "1 s",
-              "value": "105%"
-            }
-          ],
-          "id": "0ffd1f0a-0f5e-42d0-a9f7-4d03935471d6",
-          "loop": true,
-          "name": "sceneVideo-1",
-          "source": "https://dm0qx8t0i9gc9.cloudfront.net/previews/video/R5WCqjT/videoblocks-narwhal-whales-swimming-in-the-arctic-high-quality-3d-animation_hrdqfbn5g__a76ee47031072771a903976f6ca96e00__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1698277221301&publicKey=yWz7Zh6wTUo9lajzR7sf68Lj3tEqenPtc0bEOeO0yFVmChbOwYVeAw2wuGO54f8g&organizationId=107460&apiVersion=2.0&stockItemId=3747823&resolution=720p&endUserId=4e734c1d8e6d62b6db3cb9200e307382d079e837&projectId=75964bf43b074b1eada976045efdc9c5&searchId=2b204018-4495-43d1-8ef4-88ab31ee3069&searchPageId=30d808ec-7820-4080-846e-1bd03b5cc79c",
-          "sourceId": "6395147c-fc48-4848-810b-0de6c7e7ad1b",
-          "track": 2,
-          "type": "video",
-          "volume": "0%",
-          "width": [
-            {
-              "time": "0 s",
-              "value": "120%"
-            },
-            {
-              "time": "1 s",
-              "value": "105%"
-            }
-          ],
-          "x": [
-            {
-              "time": "0 s",
-              "value": "50%"
-            }
-          ],
-          "y": [
-            {
-              "time": "0 s",
-              "value": "50%"
+              "font_size_maximum": "7.5 vmin"
             }
           ]
         },
         {
-          "height": "138.0208%",
-          "id": "6a81366d-edcf-4c42-98e9-7c6b029c3018",
-          "name": "overlayimage-1",
-          "opacity": "50%",
-          "source": "https://stgcdn.vidiofy.ai/templates/assets/1698276049827/db32d013-4e9d-4316-9df0-27cf51ac180b.png",
-          "sourceId": "b80bb9b2-3cfa-4272-a56e-7f82136ba183",
-          "track": 3,
-          "type": "image",
-          "y": "30.9896%",
-          "z_rotation": "-180°"
-        },
-        {
+          "id": "937dd316-4342-4f4e-9b9a-2d33d24e7fe7",
+          "name": "composition-1",
+          "type": "composition",
+          "track": 4,
+          "time": "0 s",
+          "y": "72.6908%",
+          "height": "68.3908%",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "color-wipe",
+              "color": "#e5ff63",
+              "direction": "up"
+            }
+          ],
           "elements": [
             {
-              "animations": [
-                {
-                  "duration": "2 s",
-                  "easing": "quadratic-out",
-                  "split": "word",
-                  "time": "start",
-                  "type": "text-appear"
-                }
-              ],
-              "fill_color": "#ffea6f",
-              "font_family": "Plus Jakarta Sans",
-              "font_size_maximum": "7 vmin",
-              "font_weight": "700",
-              "height": "65.1165%",
-              "id": "29611ac2-76cb-43e8-ab99-695d5d3a616b",
-              "name": "titleText",
-              "text": "The Unforgettable Greenland",
+              "id": "2ed4ab13-0b6d-403b-8785-82cd99af2fbf",
+              "name": "sceneImage-1",
+              "type": "image",
               "track": 1,
-              "type": "text",
+              "time": "0 s",
+              "y": "46.8268%",
+              "height": "93.6537%",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307541068/2faad11f-1d10-4231-92ae-8a53c11a26cb.jpg"
+            },
+            {
+              "id": "fff4f9b3-5ee0-4547-8fde-42dc49fb613f",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
               "width": "100%",
-              "x": "0%",
-              "x_anchor": "0%",
-              "y": "17.4418%",
-              "y_alignment": "50%",
-              "y_anchor": "0%",
-              "text_direction": "ltr"
+              "height": "100%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "#333333",
+              "mask_mode": "alpha",
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
             }
-          ],
-          "height": "22.5152%",
-          "id": "6a4fc08b-5293-4740-9a34-d05f9378a1c5",
-          "name": "titleContainer",
-          "track": 4,
-          "type": "composition",
-          "width": "68.3804%",
-          "x": "50.1147%",
-          "y": "59.1368%"
-        },
-        {
-          "animations": [
-            {
-              "duration": "1.8991 s",
-              "easing": "quadratic-out",
-              "split": "word",
-              "time": "start",
-              "type": "text-appear"
-            }
-          ],
-          "fill_color": "#ffffff",
-          "font_family": "Plus Jakarta Sans",
-          "font_size": "4.9998 vmin",
-          "font_size_maximum": "5 vmin",
-          "font_weight": "700",
-          "height": "18.4658%",
-          "id": "806031ca-3602-4259-83dc-6069cfbfba64",
-          "name": "narratorText",
-          "text": "First stop, Greenland - the perfect place for a scenic boat trip across icebergs and refreshing encounters with whales.",
-          "time": "1 s",
-          "track": 5,
-          "type": "text",
-          "width": "66.9769%",
-          "x": "49.413%",
-          "y": "78.6463%",
-          "text_direction": "ltr"
-        },
-        {
-          "animations": [
-            {
-              "duration": "1.8991 s",
-              "easing": "quadratic-out",
-              "split": "word",
-              "time": "start",
-              "type": "text-appear"
-            }
-          ],
-          "fill_color": "rgba(255,234,111,1)",
-          "font_family": "Plus Jakarta Sans",
-          "font_size": "4.9998 vmin",
-          "font_size_maximum": "5 vmin",
-          "font_weight": "700",
-          "height": "18.4658%",
-          "id": "d937deef-9c82-4b8b-8028-8125d55e11c9",
-          "name": "narratorTextH",
-          "text": "Discover AI's role in revolutionizing video creation",
-          "time": "1 s",
-          "track": 6,
-          "type": "text",
-          "visible": false,
-          "width": "66.9769%",
-          "x": "49.413%",
-          "y": "78.6463%"
-        },
-        {
-          "animations": [
-            {
-              "duration": "2.5662 s",
-              "easing": "quadratic-out",
-              "end_angle": "90°",
-              "fade": false,
-              "start_angle": "90°",
-              "time": "start",
-              "type": "wipe",
-              "x_anchor": "0%"
-            }
-          ],
-          "fill_color": "#ffffff",
-          "height": "40%",
-          "id": "1230d3a7-2dfb-4b1f-a785-43ad44e14528",
-          "name": "shape-2",
-          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
-          "track": 8,
-          "type": "shape",
-          "width": "1.5%",
-          "x": "11.6719%",
-          "x_anchor": "50%",
-          "y": "67.8792%",
-          "y_anchor": "50%"
-        },
-        {
-          "blend_mode": "screen",
-          "duration": null,
-          "height": "56.25%",
-          "id": "32db6b6d-fd01-458e-a685-ca5092718360",
-          "loop": true,
-          "name": "video-1",
-          "source": "https://stgcdn.vidiofy.ai/templates/assets/1698276933219/2fb5cedc-09a7-49ca-bcea-d408205265d0.mp4",
-          "sourceId": "abe56b18-883a-49f9-a858-7eb32cb76092",
-          "track": 10,
-          "type": "video",
-          "volume": "0%",
-          "width": "177.7778%",
-          "z_rotation": "90°"
+          ]
         }
-      ],
-      "id": "ec77e3f8-4ffa-43f4-a995-76071de1dd5a",
-      "name": "slide1",
-      "track": 1,
-      "type": "composition"
+      ]
     },
     {
-      "config": {
-        "slide_no": 3
-      },
-      "duration": "9 s",
+      "id": "0a5f7d13-8513-44b5-b0aa-0ae1f7dfa098",
+      "name": "slideIntro",
+      "type": "composition",
+      "track": 1,
+      "duration": "4 s",
       "elements": [
         {
-          "fill_color": "#000000",
-          "height": "100%",
-          "id": "3744fa79-c59a-4aa4-8e54-c6ca760d0fe0",
+          "id": "fcb40b35-5810-4a8c-b7aa-d4ffa8b56167",
           "name": "shape-1",
-          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
-          "track": 1,
           "type": "shape",
+          "track": 1,
+          "time": "0 s",
           "width": "100%",
+          "height": "100%",
           "x_anchor": "50%",
-          "y_anchor": "50%"
+          "y_anchor": "50%",
+          "fill_color": "rgba(247,247,247,1)",
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
         },
         {
+          "id": "df8787d8-128c-492f-b30d-23401a0862e5",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 3,
+          "time": "0 s",
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "dbc08e8e-6bcd-4c79-a6a5-1c2ca4544133",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "7.5 vmin"
+            }
+          ]
+        },
+        {
+          "id": "317e06a8-a7aa-471d-9169-06952606a76b",
+          "name": "composition-1",
+          "type": "composition",
+          "track": 4,
+          "time": "0 s",
+          "y": "72.6908%",
+          "height": "68.3908%",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "color-wipe",
+              "color": "#e5ff63",
+              "direction": "up"
+            }
+          ],
+          "elements": [
+            {
+              "id": "6740c147-c889-4d83-85cc-f28433879b53",
+              "name": "sceneVideo-1",
+              "type": "video",
+              "track": 1,
+              "time": "0 s",
+              "y": "44.2763%",
+              "width": "99.8475%",
+              "height": "91.3098%",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307544140/fbe5dd51-cb67-4b10-883d-6ba7451d8f07.mp4",
+              "loop": true,
+              "volume": "0%"
+            },
+            {
+              "id": "ecf740ee-1df1-41de-a5e2-7cc1fcfb9f75",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "width": "100%",
+              "height": "100%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "#333333",
+              "mask_mode": "alpha",
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9ed51dca-4c98-424a-b5ed-ba9405872531",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "fill_color": "#c6c6c6",
+      "elements": [
+        {
+          "id": "c65a5914-b7af-42ba-b0d2-0dbbe0207a41",
+          "name": "sceneImage-1",
+          "type": "image",
+          "track": 1,
+          "x": "0%",
+          "y": "16.6667%",
+          "height": "66.6666%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "0%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "100%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307545862/03607a9e-f1ee-410f-b5a2-21cc1d9fd08b.jpg"
+        },
+        {
+          "id": "ea6badaf-2a29-4aa5-9c98-35e3f9f6e22d",
+          "name": "narrator",
+          "type": "composition",
+          "track": 2,
+          "x": "72.7932%",
+          "y": "84.4976%",
+          "width": "40.843%",
+          "height": "22.9743%",
+          "elements": [
+            {
+              "id": "96e296dd-1452-49ce-adcd-b91b79701a9d",
+              "name": "narratorAudio",
+              "type": "audio",
+              "track": 1,
+              "time": "0 s",
+              "x": "-142.4445%",
+              "y": "-753.7455%",
+              "width": "599.4662%",
+              "height": "1894.5909%",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307547441/9fd16d21-8c1f-4a5e-afbe-ea0d92a2ad6c.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ca7e52e0-a69e-473b-abd1-73db1723df27",
+          "name": "darkborder",
+          "type": "image",
+          "track": 3,
+          "y": "50.3308%",
+          "width": "99.9999%",
+          "height": "100.1526%",
+          "opacity": "60%",
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307549233/54c561db-7f57-4292-871c-f795585573bf.png"
+        },
+        {
+          "id": "e9ef50b9-9008-4ffa-9d52-29e8d29e3092",
+          "name": "narratorText",
+          "type": "text",
+          "track": 4,
+          "x": "47.4407%",
+          "y": "60.9605%",
+          "width": "77.7323%",
+          "height": "37.5776%",
+          "y_alignment": "100%",
+          "fill_color": "#333333",
           "animations": [
             {
               "easing": "linear",
-              "end_scale": "100%",
-              "end_x": "50%",
-              "scope": "element",
-              "start_x": "50%",
-              "start_y": "100%",
-              "type": "pan"
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
             }
           ],
-          "height": "105%",
-          "id": "db03bdbc-2950-4d1e-9eb3-40951349ad63",
-          "name": "sceneImage-1",
-          "source": "https://stgcdn.vidiofy.ai/pipeline/assets/1698277249642/9f20d950-c008-4067-83c6-b62c9931ae73.png",
-          "sourceId": "f91dc037-64fa-451e-a32f-7e28b38a1ec6",
-          "track": 2,
-          "type": "image",
-          "width": "105%",
-          "smart_crop": false
+          "text": "A south korean art student has eaten a banana ",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ed9864",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
         },
         {
-          "height": "168.8791%",
-          "id": "88019f86-8bdd-443c-a082-950d9b1828b5",
-          "name": "overlayimage-1",
-          "opacity": "50%",
-          "source": "https://stgcdn.vidiofy.ai/templates/assets/1698276049827/db32d013-4e9d-4316-9df0-27cf51ac180b.png",
-          "sourceId": "b80bb9b2-3cfa-4272-a56e-7f82136ba183",
-          "time": "0 s",
-          "track": 3,
-          "type": "image",
-          "y": "15.5604%",
-          "z_rotation": "-180°"
+          "id": "4d2402cf-9a95-4129-82c4-4183436cf853",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 5,
+          "visible": false,
+          "x": "47.4407%",
+          "y": "60.9605%",
+          "width": "77.7323%",
+          "height": "37.5776%",
+          "y_alignment": "100%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana ",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
         },
         {
+          "id": "c6017f6b-e2f0-47a4-9f23-e09d5da1733b",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 6,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
           "elements": [
             {
-              "animations": [
-                {
-                  "duration": "2 s",
-                  "easing": "quadratic-out",
-                  "overlap": "50%",
-                  "time": "start",
-                  "type": "text-fly"
-                }
-              ],
-              "fill_color": "#ffea6f",
-              "font_family": "Plus Jakarta Sans",
-              "font_size_maximum": "7 vmin",
-              "font_weight": "700",
-              "height": "65.1165%",
-              "id": "646e762f-b251-4c37-9f71-e6f0721670e0",
+              "id": "fe006117-11ec-4a12-8d99-2a832d82d4cd",
               "name": "titleText",
-              "text": "The Enchanting Cappadocia",
-              "track": 1,
               "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
               "width": "100%",
-              "x": "0%",
-              "x_anchor": "0%",
-              "y": "17.4418%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
               "y_alignment": "100%",
-              "y_anchor": "0%",
-              "text_direction": "ltr"
-            }
-          ],
-          "height": "22.5152%",
-          "id": "6fa1c069-a408-4bb3-80e0-e09b86c0527d",
-          "name": "titleContainer",
-          "track": 5,
-          "type": "composition",
-          "width": "68.3804%",
-          "x": "48.6346%",
-          "y": "50.1665%"
-        },
-        {
-          "animations": [
-            {
-              "duration": "1.8991 s",
-              "easing": "quadratic-out",
-              "split": "word",
-              "time": "start",
-              "type": "text-appear"
-            }
-          ],
-          "fill_color": "#ffffff",
-          "font_family": "Plus Jakarta Sans",
-          "font_size": "4.9999 vmin",
-          "font_size_maximum": "5 vmin",
-          "font_weight": "700",
-          "height": "18.4658%",
-          "id": "fdc43572-08e5-401b-9457-16174299db8a",
-          "name": "narratorText",
-          "text": "Next, Cappadocia, Turkey - a city known for its unique rock formations and mesmerizing hot air balloon-filled skies.",
-          "time": "1 s",
-          "track": 6,
-          "type": "text",
-          "width": "66.9769%",
-          "x": "47.9329%",
-          "y": "72.2861%",
-          "text_direction": "ltr"
-        },
-        {
-          "animations": [
-            {
-              "duration": "1.8991 s",
-              "easing": "quadratic-out",
-              "split": "word",
-              "time": "start",
-              "type": "text-appear"
-            }
-          ],
-          "fill_color": "rgba(255,234,111,1)",
-          "font_family": "Plus Jakarta Sans",
-          "font_size": "4.9999 vmin",
-          "font_size_maximum": "5 vmin",
-          "font_weight": "700",
-          "height": "18.4658%",
-          "id": "86e70f54-335e-4777-8c65-8f1b9b1b3c91",
-          "name": "narratorTextH",
-          "text": "Discover AI's role in revolutionizing video creation",
-          "time": "1 s",
-          "track": 7,
-          "type": "text",
-          "visible": false,
-          "width": "66.9769%",
-          "x": "47.9329%",
-          "y": "72.2861%"
-        },
-        {
-          "animations": [
-            {
-              "duration": "2 s",
-              "easing": "quadratic-out",
-              "fade": false,
-              "time": "start",
-              "type": "wipe",
-              "x_anchor": "0%"
-            }
-          ],
-          "fill_color": "#ffffff",
-          "height": "40%",
-          "id": "4407ce9c-af4a-4914-839a-1ac4925bcee6",
-          "name": "shape-2",
-          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
-          "track": 8,
-          "type": "shape",
-          "width": "1%",
-          "x_anchor": "50%",
-          "y": "60.4431%",
-          "y_anchor": "50%",
-          "z_rotation": "90°"
-        },
-        {
-          "blend_mode": "screen",
-          "duration": null,
-          "height": "56.25%",
-          "id": "380e98b3-8c43-44af-aa77-14802d0c7d36",
-          "loop": true,
-          "name": "video-1",
-          "source": "https://stgcdn.vidiofy.ai/templates/assets/1698276933219/2fb5cedc-09a7-49ca-bcea-d408205265d0.mp4",
-          "sourceId": "abe56b18-883a-49f9-a858-7eb32cb76092",
-          "track": 9,
-          "type": "video",
-          "volume": "0%",
-          "width": "177.7778%",
-          "z_rotation": "90°"
-        }
-      ],
-      "id": "d1368a05-97d5-4ff8-b10d-d5e08800eefd",
-      "name": "slide2",
-      "track": 1,
-      "type": "composition"
-    },
-    {
-      "config": {
-        "slide_no": 4
-      },
-      "duration": "9 s",
-      "elements": [
-        {
-          "fill_color": "#000000",
-          "height": "100%",
-          "id": "2bb5102f-3b98-4223-a05a-01c20ac1ca91",
-          "name": "shape-1",
-          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
-          "track": 1,
-          "type": "shape",
-          "width": "100%",
-          "x_anchor": "50%",
-          "y_anchor": "50%"
-        },
-        {
-          "animations": [
-            {
-              "end_x": "50%",
-              "scope": "element",
-              "start_scale": "100%",
-              "start_x": "50%",
-              "start_y": "100%",
-              "type": "pan"
-            }
-          ],
-          "duration": null,
-          "height": "105%",
-          "id": "fc52305e-a0f1-4424-8af4-61227b6fd57b",
-          "loop": true,
-          "name": "sceneVideo-1",
-          "source": "https://dm0qx8t0i9gc9.cloudfront.net/previews/video/GTYSdDW/timelapse-big-ben-london_h3egujsl__35a59a4d541a6a419219dfae42959646__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1698277250793&publicKey=yWz7Zh6wTUo9lajzR7sf68Lj3tEqenPtc0bEOeO0yFVmChbOwYVeAw2wuGO54f8g&organizationId=107460&apiVersion=2.0&stockItemId=1863677&resolution=720p&endUserId=4e734c1d8e6d62b6db3cb9200e307382d079e837&projectId=75964bf43b074b1eada976045efdc9c5&searchId=8d9c449b-d9ad-439d-a21b-2550f9fbf7f6&searchPageId=ff758b23-1b3c-4397-bd41-b1c2454b76ee",
-          "sourceId": "6395147c-fc48-4848-810b-0de6c7e7ad1b",
-          "track": 2,
-          "type": "video",
-          "volume": "0%",
-          "width": "105%"
-        },
-        {
-          "height": "150.2941%",
-          "id": "f2eac4b0-e416-4b7b-bec4-61687faa25a1",
-          "name": "overlayimage-1",
-          "opacity": "50%",
-          "source": "https://stgcdn.vidiofy.ai/templates/assets/1698276211476/36ee4b5a-29fa-43e6-96c5-6c9c65bb698d.png",
-          "sourceId": "c318a020-f0af-4406-abff-d8bf2ac98eed",
-          "track": 3,
-          "type": "image",
-          "y": "75.147%",
-          "z_rotation": "-180°"
-        },
-        {
-          "elements": [
-            {
+              "fill_color": "#2d2d2b",
               "animations": [
                 {
-                  "duration": "2 s",
-                  "easing": "quadratic-out",
-                  "split": "word",
                   "time": "start",
-                  "type": "text-appear"
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
                 }
               ],
-              "fill_color": "#ffea6f",
-              "font_family": "Plus Jakarta Sans",
-              "font_size_maximum": "7 vmin",
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
               "font_weight": "700",
-              "height": "65.1165%",
-              "id": "df555faf-87b6-4f53-9d5a-c7330b7c302e",
-              "name": "titleText",
-              "text": "The Timeless London",
-              "track": 1,
-              "type": "text",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "43727a33-73e6-41d3-8e64-117551d4171e",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
               "width": "100%",
-              "x": "0%",
-              "x_anchor": "0%",
-              "y": "17.4418%",
-              "y_alignment": "50%",
-              "y_anchor": "0%",
-              "text_direction": "ltr"
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
             }
-          ],
-          "height": "22.5152%",
-          "id": "daa950db-965a-45e5-a019-2be9d59dc6c6",
-          "name": "titleContainer",
-          "track": 4,
-          "type": "composition",
-          "width": "68.3804%",
-          "x": "52.5013%",
-          "y": "21.2576%"
-        },
-        {
-          "animations": [
-            {
-              "duration": "1.8991 s",
-              "easing": "quadratic-out",
-              "split": "word",
-              "time": "start",
-              "type": "text-appear"
-            }
-          ],
-          "fill_color": "#ffffff",
-          "font_family": "Plus Jakarta Sans",
-          "font_size": "4.9999 vmin",
-          "font_size_maximum": "5 vmin",
-          "font_weight": "700",
-          "height": "18.4658%",
-          "id": "43c8941b-fd3b-4858-adcc-77b5b284337e",
-          "name": "narratorText",
-          "text": "Take a trip to London, world-famous for its blissful summer weather, iconic landmarks and delicious fish and chips.",
-          "time": "1 s",
-          "track": 5,
-          "type": "text",
-          "width": "66.9769%",
-          "x": "51.7996%",
-          "y": "40.7671%",
-          "text_direction": "ltr"
-        },
-        {
-          "animations": [
-            {
-              "duration": "1.8991 s",
-              "easing": "quadratic-out",
-              "split": "word",
-              "time": "start",
-              "type": "text-appear"
-            }
-          ],
-          "fill_color": "rgba(255,234,111,1)",
-          "font_family": "Plus Jakarta Sans",
-          "font_size": "4.9999 vmin",
-          "font_size_maximum": "5 vmin",
-          "font_weight": "700",
-          "height": "18.4658%",
-          "id": "b149f37c-147e-49cb-98c3-4f899bf389ad",
-          "name": "narratorTextH",
-          "text": "Discover AI's role in revolutionizing video creation",
-          "time": "1 s",
-          "track": 6,
-          "type": "text",
-          "visible": false,
-          "width": "66.9769%",
-          "x": "51.7996%",
-          "y": "40.7671%"
-        },
-        {
-          "animations": [
-            {
-              "duration": "2.5662 s",
-              "easing": "quadratic-out",
-              "end_angle": "90°",
-              "fade": false,
-              "start_angle": "90°",
-              "time": "start",
-              "type": "wipe",
-              "x_anchor": "0%"
-            }
-          ],
-          "fill_color": "#ffffff",
-          "height": "40%",
-          "id": "c06be2ff-d5d1-4cee-acce-035ed302cd6c",
-          "name": "shape-2",
-          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
-          "time": "0 s",
-          "track": 7,
-          "type": "shape",
-          "width": "1.5%",
-          "x": "14.0585%",
-          "x_anchor": "50%",
-          "y": "30%",
-          "y_anchor": "50%"
-        },
-        {
-          "blend_mode": "screen",
-          "duration": null,
-          "height": "56.25%",
-          "id": "53dc86c2-77ba-4866-aa26-3812aacd39e7",
-          "loop": true,
-          "name": "video-1",
-          "source": "https://stgcdn.vidiofy.ai/templates/assets/1698276933219/2fb5cedc-09a7-49ca-bcea-d408205265d0.mp4",
-          "sourceId": "abe56b18-883a-49f9-a858-7eb32cb76092",
-          "track": 9,
-          "type": "video",
-          "volume": "0%",
-          "width": "177.7778%",
-          "z_rotation": "90°"
+          ]
         }
-      ],
-      "id": "87c59b55-4a61-4af2-93e5-1a0e522b2285",
-      "name": "slide3",
-      "track": 1,
-      "type": "composition"
+      ]
     },
     {
-      "config": {
-        "slide_no": 5
-      },
-      "duration": "7 s",
+      "id": "07b70daa-0e3e-49c6-b250-90c9eda70b10",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
       "elements": [
         {
-          "fill_color": "#000000",
-          "height": "100%",
-          "id": "fdc41fcb-8def-449a-ac04-68debff342fb",
-          "name": "shape-1",
-          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
+          "id": "0033e81f-7933-4fac-937c-4de8bd2481b2",
+          "name": "sceneImage-2",
+          "type": "image",
           "track": 1,
-          "type": "shape",
-          "width": "100%",
-          "x_anchor": "50%",
-          "y_anchor": "50%"
-        },
-        {
+          "x": "0.0763%",
+          "y": "57.6382%",
+          "height": "33.8895%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
           "animations": [
             {
-              "end_x": "50%",
+              "type": "pan",
+              "end_x": "100%",
+              "end_y": "50%",
               "scope": "element",
-              "start_scale": "100%",
-              "start_y": "0%",
-              "type": "pan"
+              "start_x": "0%",
+              "start_y": "50%"
             }
           ],
-          "height": "105%",
-          "id": "3fa831df-314a-4485-89f7-f5c0e093da75",
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307550563/fc830589-c72e-47de-8f6f-8d688c535224.jpg"
+        },
+        {
+          "id": "d7c884ae-d44d-48ed-9b19-d2d191a3a4b5",
           "name": "sceneImage-1",
-          "source": "https://stgcdn.vidiofy.ai/pipeline/assets/1698277278758/4e5319da-8eef-433f-bb7a-75318153132a.png",
-          "sourceId": "0605d17f-4777-4351-8924-e11be0ec1f69",
+          "type": "image",
           "track": 2,
-          "type": "image",
-          "width": "105%",
-          "smart_crop": false
+          "x": "0.0316%",
+          "y": "8.3333%",
+          "width": "100.5915%",
+          "height": "33.3333%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "0%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "100%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307552716/db82bd1a-3400-44ad-ae94-c19a9e31d5e8.png"
         },
         {
-          "height": "139.094%",
-          "id": "b1ab0924-b4df-49b9-b647-466f6e54ccb8",
-          "name": "overlayimage-2",
-          "opacity": "50%",
-          "source": "https://stgcdn.vidiofy.ai/templates/assets/1698276211476/36ee4b5a-29fa-43e6-96c5-6c9c65bb698d.png",
-          "sourceId": "c318a020-f0af-4406-abff-d8bf2ac98eed",
+          "id": "b99c6d19-df9d-4f54-937b-b3acf909137f",
+          "name": "narrator",
+          "type": "composition",
           "track": 3,
-          "type": "image",
-          "y": "30.453%"
-        },
-        {
+          "x": "14.8498%",
+          "y": "32.075%",
+          "width": "29.5471%",
+          "height": "16.6203%",
+          "opacity": "0%",
           "elements": [
             {
-              "animations": [
-                {
-                  "duration": "2 s",
-                  "easing": "quadratic-out",
-                  "split": "word",
-                  "time": "start",
-                  "type": "text-appear"
-                }
-              ],
-              "fill_color": "#ffea6f",
-              "font_family": "Plus Jakarta Sans",
-              "font_size_maximum": "7 vmin",
-              "font_weight": "700",
-              "height": "65.1165%",
-              "id": "58d96c21-79e6-4645-8123-332b9b88b364",
-              "name": "titleText",
-              "text": "The Historic Prague",
+              "id": "dc9edf06-6aa0-4953-815a-1364aa9291eb",
+              "name": "narratorAudio",
+              "type": "audio",
               "track": 1,
-              "type": "text",
-              "width": "100%",
-              "x": "0%",
-              "x_anchor": "0%",
-              "y": "17.4418%",
-              "y_alignment": "50%",
-              "y_anchor": "0%",
-              "text_direction": "ltr"
-            }
-          ],
-          "height": "22.5152%",
-          "id": "ff8d0d0f-7e94-4b5c-bd52-9fe9a2bd53f8",
-          "name": "titleContainer",
-          "time": "0 s",
-          "track": 4,
-          "type": "composition",
-          "width": "68.3804%",
-          "x": "50.1147%",
-          "y": "59.1368%"
-        },
-        {
-          "animations": [
-            {
-              "duration": "1.8991 s",
-              "easing": "quadratic-out",
-              "split": "word",
-              "time": "start",
-              "type": "text-appear"
-            }
-          ],
-          "fill_color": "#ffffff",
-          "font_family": "Plus Jakarta Sans",
-          "font_size": "4.9999 vmin",
-          "font_size_maximum": "5 vmin",
-          "font_weight": "700",
-          "height": "18.4658%",
-          "id": "7b7ea5af-6cd8-4f1b-8435-5bdbc49c890d",
-          "name": "narratorText",
-          "text": "Experience the magic of Prague, known for its stunning Baroque buildings and fascinating history.",
-          "time": "1 s",
-          "track": 5,
-          "type": "text",
-          "width": "66.9769%",
-          "x": "49.413%",
-          "y": "78.6463%",
-          "text_direction": "ltr"
-        },
-        {
-          "animations": [
-            {
-              "duration": "1.8991 s",
-              "easing": "quadratic-out",
-              "split": "word",
-              "time": "start",
-              "type": "text-appear"
-            }
-          ],
-          "fill_color": "rgba(255,234,111,1)",
-          "font_family": "Plus Jakarta Sans",
-          "font_size": "4.9999 vmin",
-          "font_size_maximum": "5 vmin",
-          "font_weight": "700",
-          "height": "18.4658%",
-          "id": "2da7bddb-3cb4-449f-86fd-4857ed4ff268",
-          "name": "narratorTextH",
-          "text": "Discover AI's role in revolutionizing video creation",
-          "time": "1 s",
-          "track": 6,
-          "type": "text",
-          "visible": false,
-          "width": "66.9769%",
-          "x": "49.413%",
-          "y": "78.6463%"
-        },
-        {
-          "animations": [
-            {
-              "duration": "2.5662 s",
-              "easing": "quadratic-out",
-              "end_angle": "90°",
-              "fade": false,
-              "start_angle": "90°",
-              "time": "start",
-              "type": "wipe",
-              "x_anchor": "0%"
-            }
-          ],
-          "fill_color": "#ffffff",
-          "height": "40%",
-          "id": "b4b5ee6e-1b0f-4db6-b9ca-67715d994981",
-          "name": "shape-2",
-          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
-          "track": 7,
-          "type": "shape",
-          "width": "1.5%",
-          "x": "11.6719%",
-          "x_anchor": "50%",
-          "y": "67.8792%",
-          "y_anchor": "50%"
-        },
-        {
-          "blend_mode": "screen",
-          "duration": null,
-          "height": "56.25%",
-          "id": "7bbf786f-a5c1-4f8e-aad6-6138b781088f",
-          "loop": true,
-          "name": "video-1",
-          "source": "https://stgcdn.vidiofy.ai/templates/assets/1698276933219/2fb5cedc-09a7-49ca-bcea-d408205265d0.mp4",
-          "sourceId": "abe56b18-883a-49f9-a858-7eb32cb76092",
-          "track": 11,
-          "type": "video",
-          "volume": "0%",
-          "width": "177.7778%",
-          "z_rotation": "90°"
-        }
-      ],
-      "id": "d8313e05-c1fd-4193-884f-63ba1d827ff7",
-      "name": "slide4",
-      "track": 1,
-      "type": "composition"
-    },
-    {
-      "animations": [
-        {
-          "color": "#ffea6f",
-          "direction": "right",
-          "duration": "1 s",
-          "easing": "quadratic-out",
-          "time": "start",
-          "type": "color-wipe"
-        }
-      ],
-      "config": {
-        "slide_no": 6
-      },
-      "duration": "9 s",
-      "elements": [
-        {
-          "fill_color": "#000000",
-          "height": "100%",
-          "id": "34c279b2-85c6-458e-a8c9-22601f121b63",
-          "name": "shape-1",
-          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
-          "track": 1,
-          "type": "shape",
-          "width": "100%",
-          "x_anchor": "50%",
-          "y_anchor": "50%"
-        },
-        {
-          "animations": [
-            {
-              "end_scale": "120%",
-              "end_x": "50%",
-              "end_y": "0%",
-              "scope": "element",
-              "start_scale": "100%",
-              "start_x": "50%",
-              "start_y": "0%",
-              "type": "pan"
-            }
-          ],
-          "blur_mode": "box",
-          "blur_radius": [
-            {
-              "time": "0 s",
-              "value": 100
-            },
-            {
-              "time": "1 s",
-              "value": 0
-            }
-          ],
-          "duration": null,
-          "height": [
-            {
-              "time": "0 s",
-              "value": "120%"
-            },
-            {
-              "time": "1 s",
-              "value": "105%"
-            }
-          ],
-          "id": "afd22799-f486-4532-b847-42b66f2d26c0",
-          "loop": true,
-          "name": "sceneVideo-1",
-          "source": "https://dm0qx8t0i9gc9.cloudfront.net/previews/video/GTYSdDW/elevated-view-over-the-djemaa-el-fna-marrakech-marrakesh-morocco-north-africa-africa__076c34fa212e574f8e6b2cf4d511dd49__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1698277280011&publicKey=yWz7Zh6wTUo9lajzR7sf68Lj3tEqenPtc0bEOeO0yFVmChbOwYVeAw2wuGO54f8g&organizationId=107460&apiVersion=2.0&stockItemId=122821&resolution=720p&endUserId=4e734c1d8e6d62b6db3cb9200e307382d079e837&projectId=75964bf43b074b1eada976045efdc9c5&searchId=98de5206-824e-4786-94f9-9ba919e6f26d&searchPageId=ea04ac77-af9d-411a-babd-8292dbfa7803",
-          "sourceId": "6395147c-fc48-4848-810b-0de6c7e7ad1b",
-          "track": 2,
-          "type": "video",
-          "volume": "0%",
-          "width": [
-            {
-              "time": "0 s",
-              "value": "120%"
-            },
-            {
-              "time": "1 s",
-              "value": "105%"
-            }
-          ],
-          "x": [
-            {
-              "time": "0 s",
-              "value": "50%"
-            }
-          ],
-          "y": [
-            {
-              "time": "0 s",
-              "value": "50%"
+              "x": "-19.9111%",
+              "y": "-745.6072%",
+              "width": "828.6431%",
+              "height": "2618.8998%",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307547441/9fd16d21-8c1f-4a5e-afbe-ea0d92a2ad6c.mp3"
             }
           ]
         },
         {
-          "height": "138.0208%",
-          "id": "177ee6ba-959d-4f00-a24a-d0c983626a2a",
-          "name": "overlayimage-1",
-          "opacity": "50%",
-          "source": "https://stgcdn.vidiofy.ai/templates/assets/1698276049827/db32d013-4e9d-4316-9df0-27cf51ac180b.png",
-          "sourceId": "b80bb9b2-3cfa-4272-a56e-7f82136ba183",
-          "track": 3,
-          "type": "image",
-          "y": "30.9896%",
-          "z_rotation": "-180°"
+          "id": "a9d0c6ee-c404-459e-90e8-ce415d207e6a",
+          "name": "narratorText",
+          "type": "text",
+          "track": 4,
+          "y": "60.9605%",
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "100%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana \n",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ed9864",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
         },
         {
+          "id": "73d0ffca-9a6f-448d-a461-f1ce151902e3",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 5,
+          "visible": false,
+          "y": "60.9605%",
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "100%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "50ea491a-7798-4e4d-87d4-8bf0e4924a38",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 6,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
           "elements": [
             {
+              "id": "f4229a51-a7a5-40f3-ae2b-4a48e173c4af",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
               "animations": [
                 {
-                  "duration": "2 s",
-                  "easing": "quadratic-out",
-                  "split": "word",
                   "time": "start",
-                  "type": "text-appear"
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
                 }
               ],
-              "fill_color": "#ffea6f",
-              "font_family": "Plus Jakarta Sans",
-              "font_size_maximum": "7 vmin",
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
               "font_weight": "700",
-              "height": "65.1165%",
-              "id": "ecbbed1a-f08f-4bc3-9e74-3cabdead80c5",
-              "name": "titleText",
-              "text": "The Vibrant Marrakech",
-              "track": 1,
-              "type": "text",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "615615a3-808b-4633-82ad-1cbc06ef86d9",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
               "width": "100%",
-              "x": "0%",
-              "x_anchor": "0%",
-              "y": "17.4418%",
-              "y_alignment": "50%",
-              "y_anchor": "0%",
-              "text_direction": "ltr"
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
             }
-          ],
-          "height": "22.5152%",
-          "id": "77053b7e-44bd-412b-90f1-555ca9a5c2e0",
-          "name": "titleContainer",
-          "track": 4,
-          "type": "composition",
-          "width": "68.3804%",
-          "x": "50.1147%",
-          "y": "59.1368%"
-        },
-        {
-          "animations": [
-            {
-              "duration": "1.8991 s",
-              "easing": "quadratic-out",
-              "split": "word",
-              "time": "start",
-              "type": "text-appear"
-            }
-          ],
-          "fill_color": "#ffffff",
-          "font_family": "Plus Jakarta Sans",
-          "font_size": "4.9998 vmin",
-          "font_size_maximum": "5 vmin",
-          "font_weight": "700",
-          "height": "18.4658%",
-          "id": "eec3dbf3-c247-4d52-8f92-3c010222d70b",
-          "name": "narratorText",
-          "text": "Head to Marrakech, Morocco - a city famed for its unique mix of cultural diversity and bucolic nature.",
-          "time": "1 s",
-          "track": 5,
-          "type": "text",
-          "width": "66.9769%",
-          "x": "49.413%",
-          "y": "78.6463%",
-          "text_direction": "ltr"
-        },
-        {
-          "animations": [
-            {
-              "duration": "1.8991 s",
-              "easing": "quadratic-out",
-              "split": "word",
-              "time": "start",
-              "type": "text-appear"
-            }
-          ],
-          "fill_color": "rgba(255,234,111,1)",
-          "font_family": "Plus Jakarta Sans",
-          "font_size": "4.9998 vmin",
-          "font_size_maximum": "5 vmin",
-          "font_weight": "700",
-          "height": "18.4658%",
-          "id": "ab06d389-11cc-431e-9beb-fcd878b50e40",
-          "name": "narratorTextH",
-          "text": "Discover AI's role in revolutionizing video creation",
-          "time": "1 s",
-          "track": 6,
-          "type": "text",
-          "visible": false,
-          "width": "66.9769%",
-          "x": "49.413%",
-          "y": "78.6463%"
-        },
-        {
-          "animations": [
-            {
-              "duration": "2.5662 s",
-              "easing": "quadratic-out",
-              "end_angle": "90°",
-              "fade": false,
-              "start_angle": "90°",
-              "time": "start",
-              "type": "wipe",
-              "x_anchor": "0%"
-            }
-          ],
-          "fill_color": "#ffffff",
-          "height": "40%",
-          "id": "444374dd-1da0-45e1-ab8c-cf2b7fb720b1",
-          "name": "shape-2",
-          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
-          "track": 8,
-          "type": "shape",
-          "width": "1.5%",
-          "x": "11.6719%",
-          "x_anchor": "50%",
-          "y": "67.8792%",
-          "y_anchor": "50%"
-        },
-        {
-          "blend_mode": "screen",
-          "duration": null,
-          "height": "56.25%",
-          "id": "9a51ab0e-5eb9-4566-b6dc-fabf0f74c920",
-          "loop": true,
-          "name": "video-1",
-          "source": "https://stgcdn.vidiofy.ai/templates/assets/1698276933219/2fb5cedc-09a7-49ca-bcea-d408205265d0.mp4",
-          "sourceId": "abe56b18-883a-49f9-a858-7eb32cb76092",
-          "track": 10,
-          "type": "video",
-          "volume": "0%",
-          "width": "177.7778%",
-          "z_rotation": "90°"
+          ]
         }
-      ],
-      "id": "012c23c4-409d-4572-8ee9-6bcad23a1279",
-      "name": "slide5",
-      "track": 1,
-      "type": "composition"
+      ]
     },
     {
-      "config": {
-        "slide_no": 7
-      },
-      "duration": "5 s",
+      "id": "25f9e66d-6763-4986-b349-c806917441c7",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
       "elements": [
         {
-          "animations": [
-            {
-              "color": "#ffea6f",
-              "direction": "right",
-              "duration": "1 s",
-              "easing": "quadratic-out",
-              "time": "start",
-              "type": "color-wipe"
-            }
-          ],
-          "fill_color": "#000000",
-          "height": "100%",
-          "id": "743debd2-312a-4536-beb0-3fc8735e9d90",
-          "name": "shape-1",
-          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
-          "track": 1,
-          "type": "shape",
-          "width": "100%",
-          "x_anchor": "50%",
-          "y_anchor": "50%"
-        },
-        {
-          "blend_mode": "screen",
-          "duration": "5 s",
-          "height": "56.25%",
-          "id": "40087758-de0c-4494-9e06-8cecb9e76daa",
-          "loop": true,
-          "name": "video-1",
-          "source": "https://stgcdn.vidiofy.ai/templates/assets/1698276933219/2fb5cedc-09a7-49ca-bcea-d408205265d0.mp4",
-          "sourceId": "abe56b18-883a-49f9-a858-7eb32cb76092",
-          "time": "0 s",
-          "track": 2,
+          "id": "aeab4e68-d547-4cfc-ba85-abbc090deb50",
+          "name": "sceneVideo-1",
           "type": "video",
-          "volume": "0%",
-          "width": "177.7778%",
-          "z_rotation": "90°"
+          "track": 1,
+          "duration": null,
+          "width": "99.8475%",
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307554155/47f1f29c-d611-42a5-aa68-3f22b806cc5d.mp4",
+          "loop": true,
+          "volume": "0%"
         },
         {
+          "id": "7e05b76b-41c4-4c25-a048-df9b78264ef1",
+          "name": "narrator",
+          "type": "composition",
+          "track": 2,
+          "x": "18.9588%",
+          "y": "22.9685%",
+          "width": "30.0584%",
+          "height": "21.1064%",
+          "elements": [
+            {
+              "id": "e515a506-aebf-4ac9-aef5-ad71c384659c",
+              "name": "narratorAudio",
+              "type": "audio",
+              "track": 1,
+              "time": "0 s",
+              "x": "-32.3919%",
+              "y": "-533.3577%",
+              "width": "814.5477%",
+              "height": "2062.2607%",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307547441/9fd16d21-8c1f-4a5e-afbe-ea0d92a2ad6c.mp3"
+            }
+          ]
+        },
+        {
+          "id": "a5503489-b599-4224-a8e6-6caa363729d7",
+          "name": "narratorText",
+          "type": "text",
+          "track": 3,
+          "y": "60.9605%",
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "100%",
+          "fill_color": "#333333",
           "animations": [
             {
-              "axis": "y",
-              "duration": "2 s",
-              "easing": "quadratic-out",
-              "time": "start",
-              "type": "text-reveal",
-              "y_anchor": "0%"
-            },
-            {
-              "duration": "0.8177 s",
-              "easing": "quadratic-out",
-              "reversed": true,
-              "split": "word",
-              "time": "3 s",
-              "type": "text-appear"
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
             }
           ],
-          "fill_color": "rgba(255,234,111,1)",
-          "font_family": "Plus Jakarta Sans",
-          "font_size": "8 vmin",
-          "font_weight": "700",
-          "height": "22.5152%",
-          "id": "925b250d-095d-447d-8bb5-e5b86bc0db48",
-          "name": "outroText",
-          "text": "Follow us for more exciting videos",
-          "time": "1 s",
-          "track": 3,
-          "type": "text",
-          "width": "68.3804%",
-          "x": "15.8098%",
-          "x_anchor": "0%",
-          "y": "38.7424%",
-          "y_alignment": "50%",
-          "y_anchor": "0%"
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ed9864",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
         },
         {
+          "id": "3259704f-c488-41fe-9ee1-03acf2d6a75b",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 4,
+          "visible": false,
+          "y": "60.9605%",
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "100%",
+          "fill_color": null,
+          "blend_mode": "multiply",
           "animations": [
             {
-              "direction": "180°",
-              "distance": "80%",
-              "duration": "1 s",
-              "easing": "quadratic-out",
-              "time": "start",
-              "type": "slide"
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "08435841-b047-4e95-aec8-beeb41dd207c",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 5,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "e279329e-11dc-425f-8553-15217cc29412",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
             },
             {
-              "duration": "0.7448 s",
+              "id": "15b6eb0b-4386-4069-8350-8a99b0039f27",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "57e823b6-c890-4128-8980-9de4b944226d",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "fill_color": "#c6c6c6",
+      "elements": [
+        {
+          "id": "1792a905-7d0e-434a-8c76-164a9e2f7e5b",
+          "name": "sceneImage-1",
+          "type": "image",
+          "track": 1,
+          "x": "0%",
+          "y": "16.6667%",
+          "height": "66.6666%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "0%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "100%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307545862/03607a9e-f1ee-410f-b5a2-21cc1d9fd08b.jpg"
+        },
+        {
+          "id": "659db549-2d8d-446f-92c5-8d726b237b1c",
+          "name": "narrator",
+          "type": "composition",
+          "track": 2,
+          "x": "72.7932%",
+          "y": "84.4976%",
+          "width": "40.843%",
+          "height": "22.9743%",
+          "elements": [
+            {
+              "id": "d80e0cff-ee38-496f-a7ca-76e1f99870ad",
+              "name": "narratorAudio",
+              "type": "audio",
+              "track": 1,
+              "time": "0 s",
+              "x": "-142.4445%",
+              "y": "-753.7455%",
+              "width": "599.4662%",
+              "height": "1894.5909%",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307547441/9fd16d21-8c1f-4a5e-afbe-ea0d92a2ad6c.mp3"
+            }
+          ]
+        },
+        {
+          "id": "15bbf3ac-5f37-40b8-ac66-dfa90b3922a8",
+          "name": "darkborder",
+          "type": "image",
+          "track": 3,
+          "y": "50.3308%",
+          "width": "99.9999%",
+          "height": "100.1526%",
+          "opacity": "60%",
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307549233/54c561db-7f57-4292-871c-f795585573bf.png"
+        },
+        {
+          "id": "ab91cb08-7837-403b-8495-25d4db442f03",
+          "name": "narratorText",
+          "type": "text",
+          "track": 4,
+          "x": "47.4407%",
+          "y": "60.9605%",
+          "width": "77.7323%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "100%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana ",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "16%",
+          "background_color": "#ffffff",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "259fa0fb-b9f4-478c-aa94-647532be26fa",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 5,
+          "visible": false,
+          "x": "47.4407%",
+          "y": "60.9605%",
+          "width": "77.7323%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "100%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana ",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "2ea8c7e7-a841-47f4-b907-c3fa895eb466",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 6,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "fea212d5-b0ae-4a72-94bb-01c30deb49e6",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "e1830c54-1acd-4bb1-aed3-623f892d2186",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "31499148-190e-4d04-a89b-0810468e34ab",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "elements": [
+        {
+          "id": "d59d6c00-3777-427a-96f3-17d947c225bf",
+          "name": "sceneImage-2",
+          "type": "image",
+          "track": 1,
+          "x": "0.0763%",
+          "y": "57.6382%",
+          "height": "33.8895%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "100%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "0%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307550563/fc830589-c72e-47de-8f6f-8d688c535224.jpg"
+        },
+        {
+          "id": "e27814e6-4f06-4c9d-bd16-0dcc66b5eee9",
+          "name": "sceneImage-1",
+          "type": "image",
+          "track": 2,
+          "x": "0.0316%",
+          "y": "8.3333%",
+          "width": "100.5915%",
+          "height": "33.3333%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "0%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "100%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307552716/db82bd1a-3400-44ad-ae94-c19a9e31d5e8.png"
+        },
+        {
+          "id": "0b8e98ce-cced-4204-9a10-db5a7099a4b7",
+          "name": "narrator",
+          "type": "composition",
+          "track": 3,
+          "x": "14.8498%",
+          "y": "32.075%",
+          "width": "29.5471%",
+          "height": "16.6203%",
+          "opacity": "0%",
+          "elements": [
+            {
+              "id": "b28cc30b-b5ec-44d5-aab2-9e8b00060f1e",
+              "name": "narratorAudio",
+              "type": "audio",
+              "track": 1,
+              "time": "0 s",
+              "x": "-19.9111%",
+              "y": "-745.6072%",
+              "width": "828.6431%",
+              "height": "2618.8998%",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307547441/9fd16d21-8c1f-4a5e-afbe-ea0d92a2ad6c.mp3"
+            }
+          ]
+        },
+        {
+          "id": "cfee38c4-e1f0-4ec4-a4b4-8f1b01918874",
+          "name": "narratorText",
+          "type": "text",
+          "track": 4,
+          "x": "41.0765%",
+          "y": "59.3389%",
+          "width": "63.9782%",
+          "height": "37.5776%",
+          "y_alignment": "100%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ed9864",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "32cdf19c-cdcb-4c7e-84b0-9248403cb6a6",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 5,
+          "visible": false,
+          "x": "41.0765%",
+          "y": "59.3389%",
+          "width": "63.9782%",
+          "height": "37.5776%",
+          "y_alignment": "100%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "5ee17804-b8ee-47ba-9d57-7881b38f9bed",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 6,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "bd32df4a-179f-4b62-80f9-3d7d07ed496d",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "5be61a09-0ced-4d7b-a969-981f47932c7d",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "56cb109d-cfa7-4913-b101-a431f8df20db",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "elements": [
+        {
+          "id": "f85f4d80-7c3a-4689-ad96-713942dc8885",
+          "name": "sceneVideo-1",
+          "type": "video",
+          "track": 1,
+          "duration": null,
+          "width": "99.8475%",
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307544140/fbe5dd51-cb67-4b10-883d-6ba7451d8f07.mp4",
+          "loop": true,
+          "volume": "0%"
+        },
+        {
+          "id": "e77a2921-4e7f-4683-80fa-76c3865728db",
+          "name": "narrator",
+          "type": "composition",
+          "track": 2,
+          "x": "18.9588%",
+          "y": "22.9685%",
+          "width": "30.0584%",
+          "height": "21.1064%",
+          "elements": [
+            {
+              "id": "1fea7b03-a914-4162-ab72-0d6f0f0855bd",
+              "name": "narratorAudio",
+              "type": "audio",
+              "track": 1,
+              "x": "-32.3919%",
+              "y": "-533.3577%",
+              "width": "814.5477%",
+              "height": "2062.2607%",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307547441/9fd16d21-8c1f-4a5e-afbe-ea0d92a2ad6c.mp3"
+            }
+          ]
+        },
+        {
+          "id": "1506c84f-0ba0-48e8-809a-be525770c937",
+          "name": "narratorText",
+          "type": "text",
+          "track": 3,
+          "x": "43.0105%",
+          "y": "59.655%",
+          "width": "70.6528%",
+          "height": "37.5776%",
+          "y_alignment": "100%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ed9864",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "a9d1ae88-ec98-46e2-8f05-d5dd9657bb12",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 4,
+          "visible": false,
+          "x": "43.0105%",
+          "y": "59.655%",
+          "width": "70.6528%",
+          "height": "37.5776%",
+          "y_alignment": "100%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "cf936e49-8cf3-4208-a4de-14084f3a6f3a",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 5,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "584d2592-f107-4496-a099-2e0555e05a4b",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "a96744dc-4238-4fd0-8d31-e049bf7ca2f0",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5a22b87e-9818-4ad7-9e6f-f3ed49d13e1c",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "fill_color": "#c6c6c6",
+      "elements": [
+        {
+          "id": "ee3e30ad-45d2-46f2-b2ba-8af28e0205f2",
+          "name": "sceneImage-1",
+          "type": "image",
+          "track": 1,
+          "x": "0%",
+          "y": "16.6667%",
+          "height": "66.6666%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "0%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "100%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307545862/03607a9e-f1ee-410f-b5a2-21cc1d9fd08b.jpg"
+        },
+        {
+          "id": "b0f31dca-2496-4896-be71-0c7f75a1ef14",
+          "name": "narrator",
+          "type": "composition",
+          "track": 2,
+          "x": "72.7932%",
+          "y": "84.4976%",
+          "width": "40.843%",
+          "height": "22.9743%",
+          "elements": [
+            {
+              "id": "6e086d4f-76e4-4e31-a624-709a1d4ca0e7",
+              "name": "narratorAudio",
+              "type": "audio",
+              "track": 1,
+              "x": "-142.4445%",
+              "y": "-753.7455%",
+              "width": "599.4662%",
+              "height": "1894.5909%",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307547441/9fd16d21-8c1f-4a5e-afbe-ea0d92a2ad6c.mp3"
+            }
+          ]
+        },
+        {
+          "id": "3cb53ccc-b325-4e42-a182-ba4344df36b6",
+          "name": "darkborder",
+          "type": "image",
+          "track": 3,
+          "y": "50.3308%",
+          "width": "99.9999%",
+          "height": "100.1526%",
+          "opacity": "60%",
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307549233/54c561db-7f57-4292-871c-f795585573bf.png"
+        },
+        {
+          "id": "47e07d94-5e0d-476e-9c52-6747f54e2ee7",
+          "name": "narratorText",
+          "type": "text",
+          "track": 4,
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana ",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ffffff",
+          "background_x_padding": "2%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "a793b1ef-c51a-4b88-aac1-9f708d20d23c",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 5,
+          "visible": false,
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana ",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "1414d8f8-471a-439c-88e0-ec86af9dfbb3",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 6,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "26700347-195e-46eb-aa5a-9093d9311931",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "6d4a6a40-af17-4891-a9b6-37b051a3dfc1",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dbf17063-2c00-404e-8ee0-c6246c3e2059",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "elements": [
+        {
+          "id": "b6bea5a8-195b-4083-aba0-edd8690be836",
+          "name": "sceneImage-2",
+          "type": "image",
+          "track": 1,
+          "x": "0.0763%",
+          "y": "57.6382%",
+          "height": "33.8895%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "100%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "0%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307550563/fc830589-c72e-47de-8f6f-8d688c535224.jpg"
+        },
+        {
+          "id": "37e86d82-e224-4cde-8a56-337dff91a285",
+          "name": "sceneImage-1",
+          "type": "image",
+          "track": 2,
+          "x": "0.0316%",
+          "y": "8.3333%",
+          "width": "100.5915%",
+          "height": "33.3333%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "0%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "100%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307552716/db82bd1a-3400-44ad-ae94-c19a9e31d5e8.png"
+        },
+        {
+          "id": "2f6d1fb0-99ea-4d8e-8ed1-073e9f13e4b7",
+          "name": "narrator",
+          "type": "composition",
+          "track": 3,
+          "x": "14.8498%",
+          "y": "32.075%",
+          "width": "29.5471%",
+          "height": "16.6203%",
+          "opacity": "0%",
+          "elements": [
+            {
+              "id": "e0bb5036-b006-424e-ae34-7e75bb899da7",
+              "name": "narratorAudio",
+              "type": "audio",
+              "track": 1,
+              "time": "0 s",
+              "x": "-19.9111%",
+              "y": "-745.6072%",
+              "width": "828.6431%",
+              "height": "2618.8998%",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307547441/9fd16d21-8c1f-4a5e-afbe-ea0d92a2ad6c.mp3"
+            }
+          ]
+        },
+        {
+          "id": "42eabdde-a7c6-4f7a-9fb9-693afdc3c87d",
+          "name": "narratorText",
+          "type": "text",
+          "track": 4,
+          "y": "50.3308%",
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ed9864",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "a7019cf8-7e8d-4960-9f0c-ce5330ce2ecb",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 5,
+          "visible": false,
+          "y": "50.3308%",
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "f7d39eb7-8a39-425f-a318-20222e89b95f",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 6,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "77c31386-0ad9-41a8-8b58-e6f99d7bc5c4",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "7dd5b593-9e00-404d-9223-ebf6ab88eca2",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a3ac9cc7-064d-4ef8-a595-71e5917b85cd",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "elements": [
+        {
+          "id": "c98f624b-b746-4222-b97f-f6c50bced9f4",
+          "name": "sceneVideo-1",
+          "type": "video",
+          "track": 1,
+          "duration": null,
+          "width": "99.8475%",
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307557273/a04f8c7b-2d85-4084-9ffa-5fdbfd436ebd.mp4",
+          "loop": true,
+          "volume": "0%"
+        },
+        {
+          "id": "20c3b0d3-0b07-490a-b9a4-acba5c66c78b",
+          "name": "narrator",
+          "type": "composition",
+          "track": 2,
+          "x": "18.9588%",
+          "y": "22.9685%",
+          "width": "30.0584%",
+          "height": "21.1064%",
+          "elements": [
+            {
+              "id": "e4158ce2-c083-4443-8e55-562774031d79",
+              "name": "narratorAudio",
+              "type": "audio",
+              "track": 1,
+              "time": "0 s",
+              "x": "-32.3919%",
+              "y": "-533.3577%",
+              "width": "814.5477%",
+              "height": "2062.2607%",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307547441/9fd16d21-8c1f-4a5e-afbe-ea0d92a2ad6c.mp3"
+            }
+          ]
+        },
+        {
+          "id": "97856041-f548-42a6-814b-325977cc4c38",
+          "name": "narratorText",
+          "type": "text",
+          "track": 3,
+          "y": "50.3308%",
+          "width": "70.6528%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ed9864",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "4e954f41-ac9c-4ecf-9926-a16c56d349c7",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 4,
+          "visible": false,
+          "y": "50.3308%",
+          "width": "70.6528%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "c61165fa-4ddb-47ff-b5fe-003217eee044",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 5,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "0f936486-3afc-44d9-909f-72c26fa1a8b7",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "ad98212f-6ccb-4714-8acb-46b14260e77b",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "181798d0-67d8-4fb3-931d-99019ba836b9",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "fill_color": "#c6c6c6",
+      "elements": [
+        {
+          "id": "96c2f426-ad57-4cc8-b372-c6f1b2882652",
+          "name": "sceneImage-1",
+          "type": "image",
+          "track": 1,
+          "x": "0%",
+          "y": "16.6667%",
+          "height": "66.6666%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "0%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "100%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307545862/03607a9e-f1ee-410f-b5a2-21cc1d9fd08b.jpg"
+        },
+        {
+          "id": "ca67f130-e07b-4a46-9710-7970909e8205",
+          "name": "narrator",
+          "type": "composition",
+          "track": 3,
+          "x": "23.6393%",
+          "y": "34.0749%",
+          "width": "28.7887%",
+          "height": "16.1937%",
+          "elements": [
+            {
+              "id": "8adb8ed5-ca1a-4eed-bea3-9cf073388c85",
+              "name": "avatarVideo",
+              "type": "video",
+              "track": 1,
+              "time": "0 s",
+              "border_radius": "100 vmin",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307559919/b19e075c-20c5-49de-b5db-04f84e4f581d.mp4"
+            }
+          ]
+        },
+        {
+          "id": "9ab00ddc-23e5-4b62-82a8-323e47ca43fd",
+          "name": "darkborder",
+          "type": "image",
+          "track": 4,
+          "y": "50.3308%",
+          "width": "99.9999%",
+          "height": "100.1526%",
+          "opacity": "60%",
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307549233/54c561db-7f57-4292-871c-f795585573bf.png"
+        },
+        {
+          "id": "3daec183-4c1f-4d1e-8bfe-05a3fd62f0f7",
+          "name": "narratorText",
+          "type": "text",
+          "track": 5,
+          "y": "60.9605%",
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "100%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana ",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ed9864",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "384b8f99-044a-476b-9a6a-445aec7c7411",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 6,
+          "visible": false,
+          "y": "60.9605%",
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "100%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana ",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "aa1e8c29-5eac-4843-bf30-59eebd5bbcde",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 7,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "d211fb0c-f8ca-4a5f-93f8-437998c69567",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "c1bbef85-f45f-4e99-bbad-b461d5bc0fcb",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d3d1bb8b-28c9-4c38-ab20-2fa482a83d69",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "elements": [
+        {
+          "id": "13f70e20-bfd4-430e-a168-224e93e0efc8",
+          "name": "sceneImage-2",
+          "type": "image",
+          "track": 1,
+          "x": "0.0763%",
+          "y": "57.6382%",
+          "height": "33.8895%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "100%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "0%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307550563/fc830589-c72e-47de-8f6f-8d688c535224.jpg"
+        },
+        {
+          "id": "68ffc106-8b9a-4c91-aec2-c233f3e51e47",
+          "name": "sceneImage-1",
+          "type": "image",
+          "track": 2,
+          "x": "0.0316%",
+          "y": "8.3333%",
+          "width": "100.5915%",
+          "height": "33.3333%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "0%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "100%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307552716/db82bd1a-3400-44ad-ae94-c19a9e31d5e8.png"
+        },
+        {
+          "id": "933b0ae4-ccd2-4c54-be61-c7a044801ac5",
+          "name": "narrator",
+          "type": "composition",
+          "track": 4,
+          "x": "23.6393%",
+          "y": "34.0749%",
+          "width": "28.7887%",
+          "height": "16.1937%",
+          "elements": [
+            {
+              "id": "f54d95ed-7f1d-4e40-8b2b-678c0ea40975",
+              "name": "avatarVideo",
+              "type": "video",
+              "track": 1,
+              "border_radius": "100 vmin",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307559919/b19e075c-20c5-49de-b5db-04f84e4f581d.mp4"
+            }
+          ]
+        },
+        {
+          "id": "f43b00b4-3302-4870-ae42-ff60a651fcf5",
+          "name": "narratorText",
+          "type": "text",
+          "track": 5,
+          "y": "60.9605%",
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "100%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana \n",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ed9864",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "e4668741-f0e4-4c77-bfbe-1a7ed0c05a7a",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 6,
+          "visible": false,
+          "y": "60.9605%",
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "100%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "aa7f62fd-a040-4290-9613-9f8b65487f1c",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 7,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "6f1e8310-c60e-4bd8-90e3-be1073bc2bb6",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "596691a8-4875-411f-a437-28ac1f78f2f2",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "70d64db7-54d1-42a7-8c08-31fa3f938916",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "elements": [
+        {
+          "id": "25ea65a3-1f90-46c8-9274-0ea0f6472b9a",
+          "name": "sceneVideo-1",
+          "type": "video",
+          "track": 1,
+          "duration": null,
+          "width": "99.8475%",
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307554155/47f1f29c-d611-42a5-aa68-3f22b806cc5d.mp4",
+          "loop": true,
+          "volume": "0%"
+        },
+        {
+          "id": "026bdfde-55c7-46b7-8113-22e4815a36a7",
+          "name": "narrator",
+          "type": "composition",
+          "track": 3,
+          "x": "23.6393%",
+          "y": "34.0749%",
+          "width": "28.7887%",
+          "height": "16.1937%",
+          "elements": [
+            {
+              "id": "d0258573-700a-47c8-9c23-cc3d4bf1f493",
+              "name": "avatarVideo",
+              "type": "video",
+              "track": 1,
+              "time": "0 s",
+              "border_radius": "100 vmin",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307559919/b19e075c-20c5-49de-b5db-04f84e4f581d.mp4"
+            }
+          ]
+        },
+        {
+          "id": "604f10f4-d619-4073-8fd7-2082ade8657e",
+          "name": "narratorText",
+          "type": "text",
+          "track": 4,
+          "y": "60.9605%",
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "100%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ed9864",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "7b0d87ec-d712-4818-9736-5bd1a6333bb3",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 5,
+          "visible": false,
+          "y": "60.9605%",
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "100%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "90af7a6d-7fdb-4a78-bfc7-8018aa96953e",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 6,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "45ed2e2a-bc17-45df-91b6-7068d7e6f141",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "767a289f-0c50-434d-b061-77ecb2ad7c04",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b292a3f4-cf91-4ced-8626-db6550e1afe3",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "fill_color": "#c6c6c6",
+      "elements": [
+        {
+          "id": "aa10f766-4908-402f-b295-6341c2619ac0",
+          "name": "sceneImage-1",
+          "type": "image",
+          "track": 1,
+          "x": "0%",
+          "y": "16.6667%",
+          "height": "66.6666%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "0%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "100%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307545862/03607a9e-f1ee-410f-b5a2-21cc1d9fd08b.jpg"
+        },
+        {
+          "id": "6fd1ac93-59e4-43dd-9d60-75830e7d10a6",
+          "name": "narrator",
+          "type": "composition",
+          "track": 3,
+          "x": "23.6393%",
+          "y": "34.0749%",
+          "width": "28.7887%",
+          "height": "16.1937%",
+          "elements": [
+            {
+              "id": "2fbc673d-55cb-4db8-a772-dd693f6ebecd",
+              "name": "avatarVideo",
+              "type": "video",
+              "track": 1,
+              "time": "0 s",
+              "border_radius": "100 vmin",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307559919/b19e075c-20c5-49de-b5db-04f84e4f581d.mp4"
+            }
+          ]
+        },
+        {
+          "id": "0ff70fd4-5532-4882-9e64-176c3285e75b",
+          "name": "darkborder",
+          "type": "image",
+          "track": 4,
+          "y": "50.3308%",
+          "width": "99.9999%",
+          "height": "100.1526%",
+          "opacity": "60%",
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307549233/54c561db-7f57-4292-871c-f795585573bf.png"
+        },
+        {
+          "id": "28f07bf3-b635-4ebe-af44-c1d0857919b0",
+          "name": "narratorText",
+          "type": "text",
+          "track": 5,
+          "x": "47.4407%",
+          "y": "60.9605%",
+          "width": "77.7323%",
+          "height": "37.5776%",
+          "y_alignment": "100%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana ",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ed9864",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "0a46c6b9-61e8-422f-b777-7316bb53323c",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 6,
+          "visible": false,
+          "x": "47.4407%",
+          "y": "60.9605%",
+          "width": "77.7323%",
+          "height": "37.5776%",
+          "y_alignment": "100%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana ",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "29b92dc6-bb73-4bad-a440-49c700310d92",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 7,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "f1326277-96dc-401b-9362-a8407d48d723",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "474d4213-a769-44ec-a6d5-af6c8ddbae81",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "044b88d7-918f-495a-aed7-a53ee8205d66",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "elements": [
+        {
+          "id": "95f5a7b1-c38a-4fa2-952b-de05e68fd16f",
+          "name": "sceneImage-2",
+          "type": "image",
+          "track": 1,
+          "x": "0.0763%",
+          "y": "57.6382%",
+          "height": "33.8895%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "100%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "0%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307550563/fc830589-c72e-47de-8f6f-8d688c535224.jpg"
+        },
+        {
+          "id": "e3b3ecd2-c9ea-4395-aab6-7a81a4cc0f6c",
+          "name": "sceneImage-1",
+          "type": "image",
+          "track": 2,
+          "x": "0.0316%",
+          "y": "8.3333%",
+          "width": "100.5915%",
+          "height": "33.3333%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "0%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "100%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307552716/db82bd1a-3400-44ad-ae94-c19a9e31d5e8.png"
+        },
+        {
+          "id": "38fc859c-fc72-4cc7-b369-398a449fed74",
+          "name": "narrator",
+          "type": "composition",
+          "track": 4,
+          "x": "23.6393%",
+          "y": "34.0749%",
+          "width": "28.7887%",
+          "height": "16.1937%",
+          "elements": [
+            {
+              "id": "07854b97-b275-433c-a896-86121bb968c4",
+              "name": "avatarVideo",
+              "type": "video",
+              "track": 1,
+              "time": "0 s",
+              "border_radius": "100 vmin",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307559919/b19e075c-20c5-49de-b5db-04f84e4f581d.mp4"
+            }
+          ]
+        },
+        {
+          "id": "a7474bbc-0af7-4393-925b-017a3eb4f36c",
+          "name": "narratorText",
+          "type": "text",
+          "track": 5,
+          "x": "41.0765%",
+          "y": "59.3389%",
+          "width": "63.9782%",
+          "height": "37.5776%",
+          "y_alignment": "100%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ed9864",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "545e29c9-71bc-4d0d-ab75-2b77b50d0d54",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 6,
+          "visible": false,
+          "x": "41.0765%",
+          "y": "59.3389%",
+          "width": "63.9782%",
+          "height": "37.5776%",
+          "y_alignment": "100%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "a470bb3d-5e65-428e-84b0-0ac99cd47053",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 7,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "f716a46a-0a52-4807-9f14-a2eaba377e84",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "1f775dbc-21c2-4834-bdd5-21c1523af1d3",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cd80a8a1-889d-4648-bb0d-bad9598b338d",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "elements": [
+        {
+          "id": "a6711cf1-6d18-4f17-b6d7-c052f3e70d69",
+          "name": "sceneVideo-1",
+          "type": "video",
+          "track": 1,
+          "duration": null,
+          "width": "99.8475%",
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307544140/fbe5dd51-cb67-4b10-883d-6ba7451d8f07.mp4",
+          "loop": true,
+          "volume": "0%"
+        },
+        {
+          "id": "a65aaa8d-a08a-455d-80fb-73cfcac7cdcb",
+          "name": "narrator",
+          "type": "composition",
+          "track": 3,
+          "x": "23.6393%",
+          "y": "34.0749%",
+          "width": "28.7887%",
+          "height": "16.1937%",
+          "elements": [
+            {
+              "id": "9a52d052-e161-476e-9687-d02e33266bfe",
+              "name": "avatarVideo",
+              "type": "video",
+              "track": 1,
+              "time": "0 s",
+              "border_radius": "100 vmin",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307559919/b19e075c-20c5-49de-b5db-04f84e4f581d.mp4"
+            }
+          ]
+        },
+        {
+          "id": "e816a9bf-ffba-466d-9145-8586529c04a5",
+          "name": "narratorText",
+          "type": "text",
+          "track": 4,
+          "x": "43.0105%",
+          "y": "59.655%",
+          "width": "70.6528%",
+          "height": "37.5776%",
+          "y_alignment": "100%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ed9864",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "7a521a1d-53d2-495b-9e89-d444651a6329",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 5,
+          "visible": false,
+          "x": "43.0105%",
+          "y": "59.655%",
+          "width": "70.6528%",
+          "height": "37.5776%",
+          "y_alignment": "100%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "28bf2565-5ec4-4dda-aabe-ba9f1ec7c3b7",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 6,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "72c04a2e-d931-4936-8c82-9bb79c710680",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "56e90bab-e451-4895-b36e-234e5c84703e",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b814a8d-51f7-4737-ab9d-8917beb91a89",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "fill_color": "#c6c6c6",
+      "elements": [
+        {
+          "id": "2296a0f4-5409-4cc8-ae77-7aac65283678",
+          "name": "sceneImage-1",
+          "type": "image",
+          "track": 1,
+          "x": "0%",
+          "y": "16.6667%",
+          "height": "66.6666%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "0%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "100%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307545862/03607a9e-f1ee-410f-b5a2-21cc1d9fd08b.jpg"
+        },
+        {
+          "id": "418957e2-5682-4ebd-a14a-f25e87163245",
+          "name": "narrator",
+          "type": "composition",
+          "track": 3,
+          "x": "23.6393%",
+          "y": "34.0749%",
+          "width": "28.7887%",
+          "height": "16.1937%",
+          "elements": [
+            {
+              "id": "1f2e0706-9fc4-4977-94e4-2fc8b9d6ab1f",
+              "name": "avatarVideo",
+              "type": "video",
+              "track": 1,
+              "time": "0 s",
+              "border_radius": "100 vmin",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307559919/b19e075c-20c5-49de-b5db-04f84e4f581d.mp4"
+            }
+          ]
+        },
+        {
+          "id": "5a45b380-4718-4810-8afa-d5fe54347b61",
+          "name": "darkborder",
+          "type": "image",
+          "track": 4,
+          "y": "50.3308%",
+          "width": "99.9999%",
+          "height": "100.1526%",
+          "opacity": "60%",
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307549233/54c561db-7f57-4292-871c-f795585573bf.png"
+        },
+        {
+          "id": "0a0d636a-1568-4c8f-a8b0-f7ca81e167e4",
+          "name": "narratorText",
+          "type": "text",
+          "track": 5,
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana ",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ffffff",
+          "background_x_padding": "2%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "ebf73237-2ff4-4528-8029-824b19d469ab",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 6,
+          "visible": false,
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana ",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "42329d59-3d35-4eae-8e1b-24de0ae1d097",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 7,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "28b3b79d-c489-4b0b-aba8-b31e81826442",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "22602035-4e10-4263-8238-f3a3c5042b68",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4cd74722-c844-412a-8f14-1fb08406778a",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "elements": [
+        {
+          "id": "07f9334c-c3f8-40fe-8b9d-2bf6551672c1",
+          "name": "sceneImage-2",
+          "type": "image",
+          "track": 1,
+          "x": "0.0763%",
+          "y": "57.6382%",
+          "height": "33.8895%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "100%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "0%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307550563/fc830589-c72e-47de-8f6f-8d688c535224.jpg"
+        },
+        {
+          "id": "f587eb5b-1437-43c9-beae-385bc9da9840",
+          "name": "sceneImage-1",
+          "type": "image",
+          "track": 2,
+          "x": "0.0316%",
+          "y": "8.3333%",
+          "width": "100.5915%",
+          "height": "33.3333%",
+          "x_anchor": "0%",
+          "y_anchor": "0%",
+          "animations": [
+            {
+              "type": "pan",
+              "end_x": "0%",
+              "end_y": "50%",
+              "scope": "element",
+              "start_x": "100%",
+              "start_y": "50%"
+            }
+          ],
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307552716/db82bd1a-3400-44ad-ae94-c19a9e31d5e8.png"
+        },
+        {
+          "id": "cf879f09-de4a-4b30-821d-ee58631d2894",
+          "name": "narrator",
+          "type": "composition",
+          "track": 4,
+          "x": "23.6393%",
+          "y": "34.0749%",
+          "width": "28.7887%",
+          "height": "16.1937%",
+          "elements": [
+            {
+              "id": "93591b60-97af-462d-a320-e5a882d993a1",
+              "name": "avatarVideo",
+              "type": "video",
+              "track": 1,
+              "time": "0 s",
+              "border_radius": "100 vmin",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307559919/b19e075c-20c5-49de-b5db-04f84e4f581d.mp4"
+            }
+          ]
+        },
+        {
+          "id": "a675a54d-319d-49bf-8208-ffa216260f72",
+          "name": "narratorText",
+          "type": "text",
+          "track": 5,
+          "y": "50.3308%",
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ed9864",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "2683b8a1-7636-4e94-b606-c2b9f37b7594",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 6,
+          "visible": false,
+          "y": "50.3308%",
+          "width": "72.6138%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "543b17f9-ec06-43c3-b3e8-e557747826e3",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 7,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "ce9d33e9-c999-4eec-af3a-172b9960e635",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "9b354c23-8302-4c84-84f0-63f5855c29a3",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9562731a-5d4b-4bc2-83bc-c7b8983ddbcb",
+      "name": "slide",
+      "type": "composition",
+      "track": 1,
+      "y": "49.6697%",
+      "width": "100.0001%",
+      "height": "99.8476%",
+      "elements": [
+        {
+          "id": "c582303c-5f80-4e7f-a58a-02d5d7e95bc3",
+          "name": "sceneVideo-1",
+          "type": "video",
+          "track": 1,
+          "duration": null,
+          "width": "99.8475%",
+          "source": "https://devcdn.vidiofy.ai/templates/assets/1701307557273/a04f8c7b-2d85-4084-9ffa-5fdbfd436ebd.mp4",
+          "loop": true,
+          "volume": "0%"
+        },
+        {
+          "id": "043e26b0-a92b-4837-b9a6-bacb5b72f345",
+          "name": "narrator",
+          "type": "composition",
+          "track": 3,
+          "x": "23.6393%",
+          "y": "34.0749%",
+          "width": "28.7887%",
+          "height": "16.1937%",
+          "elements": [
+            {
+              "id": "9aebb1be-ed55-4457-bc16-d10cadc0402c",
+              "name": "avatarVideo",
+              "type": "video",
+              "track": 1,
+              "time": "0 s",
+              "border_radius": "100 vmin",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307559919/b19e075c-20c5-49de-b5db-04f84e4f581d.mp4"
+            }
+          ]
+        },
+        {
+          "id": "66c38abe-2db0-466a-aa65-11676e5a4a66",
+          "name": "narratorText",
+          "type": "text",
+          "track": 4,
+          "y": "50.3308%",
+          "width": "70.6528%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "#ed9864",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "0c326cd8-9e7e-4fcf-b796-ae85eb7eda1f",
+          "name": "narratorTextH",
+          "type": "text",
+          "track": 5,
+          "visible": false,
+          "y": "50.3308%",
+          "width": "70.6528%",
+          "height": "37.5776%",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": null,
+          "blend_mode": "multiply",
+          "animations": [
+            {
+              "easing": "linear",
+              "type": "text-appear",
+              "fade": false,
+              "overlap": "0%",
+              "background_effect": "animated"
+            }
+          ],
+          "text": "A south korean art student has eaten a banana",
+          "font_family": "Poppins",
+          "font_weight": "500",
+          "font_size_maximum": "5 vmin",
+          "line_height": "160%",
+          "background_color": "rgba(229,255,99,1)",
+          "background_x_padding": "20%",
+          "background_y_padding": "0%",
+          "background_border_radius": "20%",
+          "background_align_threshold": "0%"
+        },
+        {
+          "id": "b9a4603f-8c6c-4bd5-a1e9-ada385b9d314",
+          "name": "titleContainer",
+          "type": "composition",
+          "track": 6,
+          "y": "16.2614%",
+          "width": "81.51%",
+          "height": "14.2848%",
+          "elements": [
+            {
+              "id": "b1f29533-035a-4810-a1cd-c8f53537db6f",
+              "name": "titleText",
+              "type": "text",
+              "track": 1,
+              "time": "0 s",
+              "y": "45.3253%",
+              "width": "100%",
+              "height": "90.6505%",
+              "x_alignment": "50%",
+              "y_alignment": "100%",
+              "fill_color": "#2d2d2b",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "1 s",
+                  "easing": "quadratic-out",
+                  "type": "text-appear",
+                  "split": "word"
+                }
+              ],
+              "text": "Banana artwork eaten by Seoul museum visitor",
+              "font_family": "Sora",
+              "font_weight": "700",
+              "font_size_maximum": "5.5 vmin"
+            },
+            {
+              "id": "3675a78f-025f-4945-8482-4a60602b9544",
+              "name": "shape-1",
+              "type": "shape",
+              "track": 2,
+              "time": "0 s",
+              "y": "99.1407%",
+              "width": "100%",
+              "height": "1.7186%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "rgba(45,45,43,1)",
+              "animations": [
+                {
+                  "time": "start",
+                  "duration": "3 s",
+                  "type": "wipe",
+                  "fade": false,
+                  "x_anchor": "0%"
+                }
+              ],
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9955629f-dc6f-44a0-aed1-5b222e794653",
+      "name": "slideOutro",
+      "type": "composition",
+      "track": 1,
+      "duration": "4 s",
+      "elements": [
+        {
+          "id": "2f4341a5-862f-4533-9404-6af667a4d2c4",
+          "name": "shape-1",
+          "type": "shape",
+          "track": 1,
+          "time": "0 s",
+          "width": "100%",
+          "height": "100%",
+          "x_anchor": "50%",
+          "y_anchor": "50%",
+          "fill_color": "rgba(247,247,247,1)",
+          "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+        },
+        {
+          "id": "f65d2883-84b8-43bf-ad10-7c4c00acfc07",
+          "name": "text-1",
+          "type": "text",
+          "track": 2,
+          "time": "1 s",
+          "x": "51.4393%",
+          "y": "19.1322%",
+          "width": "69.9149%",
+          "height": "38.2643%",
+          "x_alignment": "50%",
+          "y_alignment": "50%",
+          "fill_color": "#333333",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
               "easing": "quadratic-out",
-              "reversed": true,
-              "time": "3.109 s",
-              "type": "circular-wipe"
+              "type": "text-appear",
+              "split": "word"
+            }
+          ],
+          "text": "FOLLOW US FOR MORE VIDEOS!",
+          "font_family": "Sora",
+          "font_weight": "700",
+          "font_size_maximum": "7 vmin"
+        },
+        {
+          "id": "431c36de-0560-429f-9f55-98b6ddf0f68d",
+          "name": "composition-1",
+          "type": "composition",
+          "track": 3,
+          "y": "72.4597%",
+          "height": "68.3908%",
+          "animations": [
+            {
+              "time": "start",
+              "duration": "1 s",
+              "easing": "quadratic-out",
+              "type": "color-wipe",
+              "color": "#e5ff63",
+              "direction": "up"
             }
           ],
           "elements": [
             {
-              "height": "80.414%",
-              "id": "a1fb688f-23f9-4913-b6a8-d65a1f39ad58",
-              "name": "image-1",
-              "source": "https://stgcdn.vidiofy.ai/templates/assets/1698275859939/996f774c-a175-4209-8a59-b79ec79a430b.png",
-              "sourceId": "1710f1fe-5814-4642-aae8-290822a19a28",
-              "time": "0 s",
-              "track": 1,
+              "id": "0eecdff6-7e9e-4b87-82bd-94d69ef69184",
+              "name": "sceneImage-1",
               "type": "image",
-              "width": "80.4139%",
-              "z_rotation": [
-                {
-                  "time": "0 s",
-                  "value": "360°"
-                },
-                {
-                  "time": "end",
-                  "value": "0°"
-                }
-              ]
+              "track": 1,
+              "time": "0 s",
+              "source": "https://devcdn.vidiofy.ai/templates/assets/1701307562176/e136b7fe-2791-44cd-ac31-db9ec2bcb8dd.jpg"
             },
             {
-              "height": "34.021%",
-              "id": "fb2cd632-bcbd-4968-b04d-e8b3bd362dbd",
-              "name": "image-2",
-              "source": "https://stgcdn.vidiofy.ai/templates/assets/1698275861259/ef341f33-c3d8-40e4-8c99-da46ffb341fd.png",
-              "sourceId": "bbd05cf8-c26e-4fda-a55b-0dc52f3b513e",
-              "time": "0 s",
+              "id": "2f779c2e-9e77-486f-9591-99a396093399",
+              "name": "shape-2",
+              "type": "shape",
               "track": 2,
-              "type": "image",
-              "width": "30.1553%",
-              "z_rotation": [
-                {
-                  "time": "0 s",
-                  "value": "0°"
-                },
-                {
-                  "time": "end",
-                  "value": "360°"
-                }
-              ]
+              "time": "0 s",
+              "width": "100%",
+              "height": "100%",
+              "x_anchor": "50%",
+              "y_anchor": "50%",
+              "fill_color": "#333333",
+              "mask_mode": "alpha",
+              "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
             }
-          ],
-          "height": "11.2965%",
-          "id": "c3e33608-1713-45c6-87f4-66f4a60b35a4",
-          "time": "1 s",
-          "track": 4,
-          "type": "composition",
-          "width": "20.0827%",
-          "x": "75.7912%",
-          "y": "41.8633%"
+          ]
         }
-      ],
-      "id": "9ed51dca-4c98-424a-b5ed-ba9405872531",
-      "name": "slideOutro",
-      "track": 1,
-      "type": "composition"
+      ]
     },
     {
-      "audio_fade_out": "3 s",
-      "duration": null,
-      "elements": [],
-      "id": "6d9a6ded-4359-49c5-84c9-45bcb61c836e",
-      "loop": true,
+      "id": "f57785ba-665f-473f-8bc1-8acd804e81fb",
       "name": "bgm",
-      "source": "https://dm0qx8t0i9gc9.cloudfront.net/previews/audio/HxKQM0zSDkf8xwatf/audioblocks-meditative_HHYn-cwwP_NWM.mp3",
-      "sourceId": "9ea95cad-db58-4491-af42-4d29683116ed",
-      "track": 2,
       "type": "audio",
-      "volume": "20%",
-      "config": {
-        "assetId": "storyblocks:179112",
-        "type": "audio"
-      }
+      "track": 2,
+      "time": "0 s",
+      "duration": null,
+      "source": "https://devcdn.vidiofy.ai/templates/assets/1701307565058/c1f670d7-4f6c-4a0a-85f2-d6001b85dc4f.mp3",
+      "trim_start": "5 s",
+      "loop": true,
+      "volume": "6%",
+      "audio_fade_out": "3 s"
     }
-  ],
-  "height": 1280,
-  "output_format": "mp4",
-  "width": 720
+  ]
 }
